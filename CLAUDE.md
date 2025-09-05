@@ -17,7 +17,48 @@ Documentation website for BracketSpace plugins at docs.bracketspace.com
   - Pretty Email
   - Easy Watermark
 
-## Development Commands
+## Development
+
+- Ensure the `npm run dev` works in the background and website compiles without the errors
+- Commit each change to git with below guidelines
+
+### Commits
+
+**Change Type Detection:**
+- New functionality/features → `feat`
+- Bug fixes → `fix`
+- Code restructuring without behavior changes → `refactor`
+- Performance improvements → `perf`
+- Documentation updates → `docs`
+- Test additions/updates → `test`
+- Build process, dependencies, tooling → `chore`
+- Code formatting, whitespace → `style`
+
+**Breaking Changes:**
+- API signature changes → `feat!` or `fix!`
+- Removed functionality → `feat!`
+- Major dependency updates → `chore!`
+
+**Commit Message Generation**
+
+Follow Conventional Commits format:
+
+```
+<type>[optional scope]: <description>
+
+[optional body]
+
+[optional footer]
+```
+
+**Guidelines:**
+- Keep description under 50 characters
+- Use imperative mood ("add", "fix", "update", not "added", "fixed", "updated")
+- No period at the end of the description
+- Include scope when it adds clarity (e.g., `feat(auth)`, `fix(api)`)
+- Add body for complex changes explaining the reasoning
+
+### Development Commands
 - `npm run dev` - Start development server
 - `npm run build` - Build for production
 - `npm run typecheck` - Run TypeScript checks
@@ -31,7 +72,7 @@ Documentation website for BracketSpace plugins at docs.bracketspace.com
 
 ### Phase 1: Initial Setup
 - [x] Set up Docusaurus v3 project with TypeScript configuration
-- [ ] Remove the blog feature
+- [x] Remove the blog feature
 - [ ] Configure multi-doc setup with main site and 4 plugin subsites
 - [ ] Create URL routing to maintain existing SEO structure
 
