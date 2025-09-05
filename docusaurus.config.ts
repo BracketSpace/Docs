@@ -45,19 +45,6 @@ const config: Config = {
           // Remove edit links for now
           // editUrl: 'https://github.com/bracketspace/docs/tree/main/',
         },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          // Remove edit links for now
-          // editUrl: 'https://github.com/bracketspace/docs/tree/main/',
-          // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
-        },
         theme: {
           customCss: './src/css/custom.css',
         },
