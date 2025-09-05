@@ -36,6 +36,45 @@ const config: Config = {
     locales: ['en'],
   },
 
+  plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'notification',
+        path: 'plugins/notification/docs',
+        routeBasePath: 'notification',
+        sidebarPath: './plugins/notification/notification.ts',
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'advanced-cron-manager',
+        path: 'plugins/advanced-cron-manager/docs',
+        routeBasePath: 'advanced-cron-manager',
+        sidebarPath: './plugins/advanced-cron-manager/advanced-cron-manager.ts',
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'pretty-email',
+        path: 'plugins/pretty-email/docs',
+        routeBasePath: 'pretty-email',
+        sidebarPath: './plugins/pretty-email/pretty-email.ts',
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'easy-watermark',
+        path: 'plugins/easy-watermark/docs',
+        routeBasePath: 'easy-watermark',
+        sidebarPath: './plugins/easy-watermark/easy-watermark.ts',
+      },
+    ],
+  ],
+
   presets: [
     [
       'classic',
@@ -45,10 +84,36 @@ const config: Config = {
           // Remove edit links for now
           // editUrl: 'https://github.com/bracketspace/docs/tree/main/',
         },
+        blog: false,
         theme: {
           customCss: './src/css/custom.css',
         },
       } satisfies Preset.Options,
+    ],
+  ],
+
+  themes: [
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      {
+        hashed: true,
+        language: ["en"],
+        docsRouteBasePath: ["/docs", "/notification", "/advanced-cron-manager", "/pretty-email", "/easy-watermark"],
+        docsDir: ["docs", "plugins/notification/docs", "plugins/advanced-cron-manager/docs", "plugins/pretty-email/docs", "plugins/easy-watermark/docs"],
+        searchContextByPaths: [
+          "docs",
+          "notification", 
+          "advanced-cron-manager",
+          "pretty-email",
+          "easy-watermark"
+        ],
+        indexDocs: true,
+        indexBlog: false,
+        highlightSearchTermsOnTargetPage: true,
+        explicitSearchResultPath: true,
+        searchBarShortcut: true,
+        searchBarShortcutHint: true,
+      },
     ],
   ],
 
