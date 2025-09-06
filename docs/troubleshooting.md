@@ -33,7 +33,6 @@ define('WP_DEBUG_DISPLAY', false);
 
 Check these locations for error logs:
 - `/wp-content/debug.log` - WordPress debug log
-- `/wp-content/plugins/[plugin-name]/logs/` - Plugin-specific logs
 - Server error logs (location varies by hosting provider)
 
 ## Step-by-Step Troubleshooting
@@ -67,3 +66,21 @@ If you've followed these steps and still experience issues:
 4. [Contact our support team](/docs/support) with these details
 
 Remember to include your WordPress version, plugin version, and active theme when reporting issues.
+
+## Diagnosing Specific Error Types
+
+Should you encounter any error while using the plugin, please try to find the exact error you can report to our team in the support thread message. This will help us recognize the essence of the problem and then solve the problem faster.
+
+### Diagnose JavaScript Errors in the Browser
+
+To diagnose errors through the browser, you just need to follow a few simple steps which are listed and explained in the [WordPress support article](https://wordpress.org/support/article/using-your-browser-to-diagnose-javascript-errors/).
+
+### Diagnose Server Errors
+
+All the PHP-related errors like notices, warnings, and fatal errors are logged by the server. The best way to access them is to ask your hosting provider for the `error_log` file or try to search for that in your hosting panel or in FTP.
+
+The other possible way to get the errors is to **temporarily** enable WP DEBUG mode like [described in this article](https://blog.hubspot.com/website/how-to-set-up-wordpress-error-logs-in-wp-config).
+
+:::warning
+Please remember to disable the WP DEBUG mode as soon as you finish debugging as this might create a security breach and affect your website performance.
+:::
