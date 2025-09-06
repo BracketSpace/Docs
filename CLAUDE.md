@@ -20,7 +20,7 @@ Documentation website for BracketSpace plugins at docs.bracketspace.com
 ## Development
 
 - Ensure the `npm run dev` works in the background and website compiles without the errors
-- Perform typecheck before commiting anything
+- Perform typecheck and linting before commiting anything
 - Commit each change to git with below guidelines
 
 ### Commits
