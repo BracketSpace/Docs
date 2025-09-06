@@ -19,11 +19,11 @@ function HomepageHeader() {
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
-          <Link
+          <a
             className="button button--primary button--lg"
-            to="#plugins">
+            href="#plugins">
             Explore Our Plugins
-          </Link>
+          </a>
         </div>
       </div>
     </header>
@@ -38,9 +38,7 @@ export default function Home(): ReactNode {
       description="Complete documentation for BracketSpace WordPress plugins including Notification, Advanced Cron Manager, Pretty Email, and Easy Watermark.">
       <HomepageHeader />
       <main>
-        <div id="plugins">
-          <PluginCards />
-        </div>
+        <PluginCards />
         <CommonDocs />
       </main>
     </Layout>

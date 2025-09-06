@@ -165,7 +165,7 @@ function PluginCard({title, icon, description, features, link}: PluginItem) {
 
 export default function PluginCards(): ReactNode {
   return (
-    <section className={styles.pluginCards}>
+    <section id="plugins" className={styles.pluginCards}>
       <div className="container">
         <div className="text--center margin-bottom--lg">
           <Heading as="h2">Our WordPress Plugins</Heading>
