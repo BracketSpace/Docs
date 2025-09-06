@@ -215,9 +215,9 @@ Please provide:
 
 After successful installation:
 
-1. **[Basic Configuration](/notification/configuration)** - Set up core settings
-2. **[Creating Triggers](/notification/triggers)** - Define when notifications send
-3. **[Template Design](/notification/templates)** - Customize notification appearance
-4. **[Advanced Features](/notification/advanced)** - Explore powerful options
+1. **Basic Configuration** - Set up core settings
+2. **Creating Triggers** - Define when notifications send  
+3. **Template Design** - Customize notification appearance
+4. **Advanced Features** - Explore powerful options
 
-Ready to create your first notification? Check out our [Quick Start Guide](/notification/quick-start) for a step-by-step walkthrough.
+Ready to create your first notification? The documentation for these features is coming soon.
