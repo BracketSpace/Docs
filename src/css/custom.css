@@ -224,6 +224,22 @@ h4 {
   text-decoration: none;
 }
 
+/* Hero section specific secondary button styling - better visibility on dark background */
+.hero .button--secondary {
+  background: rgba(255, 255, 255, 0.1);
+  color: var(--bs-text-white);
+  border: 1.6px solid rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+}
+
+.hero .button--secondary:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.5);
+  color: var(--bs-text-white);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(255, 255, 255, 0.2);
+}
+
 /* Card Components */
 .card {
   background: var(--bs-bg-primary);

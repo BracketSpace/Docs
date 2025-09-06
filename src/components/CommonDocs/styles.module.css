@@ -69,7 +69,7 @@
 }
 
 .cardDescription {
-  color: var(--ifm-color-secondary-dark);
+  color: var(--bs-text-tertiary);
   font-size: 0.9rem;
   line-height: 1.5;
   margin-bottom: 0;

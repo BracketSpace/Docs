@@ -23,6 +23,11 @@ function HomepageHeader() {
             href="#plugins">
             Explore Our Plugins
           </a>
+          <a
+            className="button button--secondary button--lg"
+            href="#common-docs">
+            Common Docs
+          </a>
         </div>
       </div>
     </header>

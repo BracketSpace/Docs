@@ -77,7 +77,7 @@ function DocCard({title, description, icon, link}: DocItem) {
 
 export default function CommonDocs(): ReactNode {
   return (
-    <section className={styles.commonDocs}>
+    <section id="common-docs" className={styles.commonDocs}>
       <div className="container">
         <div className="text--center margin-bottom--lg">
           <Heading as="h2">Common Documentation</Heading>
