@@ -1,97 +1,93 @@
 .pluginCards {
   padding: 4rem 0;
-  background: linear-gradient(180deg, #f8f9fa 0%, #ffffff 100%);
+  background: var(--bs-bg-secondary);
+}
+
+.pluginCards .row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -12px;
+  margin-right: -12px;
 }
 
 .pluginCard {
-  margin-bottom: 2rem;
+  margin-bottom: var(--bs-space-6);
+  display: flex;
+  flex-direction: column;
+  padding-left: 12px;
+  padding-right: 12px;
+  width: 50%;
+  flex: 0 0 50%;
+}
+
+.cardLink {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  height: 100%;
+}
+
+.cardLink:hover {
+  text-decoration: none;
+  color: inherit;
 }
 
 .card {
-  background: white;
-  border-radius: 12px;
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  background: var(--bs-bg-primary);
+  border-radius: var(--bs-radius-lg);
+  box-shadow: var(--bs-shadow-md);
+  border: 1px solid var(--bs-secondary-200);
   transition: all 0.3s ease;
   height: 100%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  align-items: center;
+  padding: var(--bs-space-6);
+  position: relative;
   overflow: hidden;
 }
 
-.card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-}
 
-.cardHeader {
-  padding: 1.5rem 1.5rem 1rem;
-  text-align: center;
-  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--bs-shadow-lg);
 }
 
 .pluginIcon {
   width: 80px;
   height: 80px;
-  margin-bottom: 1rem;
-  border-radius: 8px;
+  margin-right: var(--bs-space-6);
+  flex-shrink: 0;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.cardTitle h3 {
-  margin-bottom: 0;
-  color: var(--ifm-color-primary);
-  font-size: 1.4rem;
+.pluginIcon img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
 }
 
 .cardContent {
-  padding: 1rem 1.5rem;
   flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.cardTitle {
+  margin-bottom: var(--bs-space-2) !important;
+  color: var(--bs-text-primary);
+  font-family: var(--bs-font-heading);
+  font-size: var(--bs-text-xl) !important;
+  font-weight: 500;
 }
 
 .description {
-  color: var(--ifm-color-secondary-darkest);
-  line-height: 1.6;
-  margin-bottom: 1rem;
-  font-size: 0.95rem;
-}
-
-.features {
-  list-style: none;
-  padding: 0;
+  color: var(--bs-text-tertiary);
+  line-height: 1.5;
   margin: 0;
-}
-
-.features li {
-  position: relative;
-  padding-left: 1.5rem;
-  margin-bottom: 0.5rem;
-  color: var(--ifm-color-secondary-dark);
-  font-size: 0.9rem;
-}
-
-.features li::before {
-  content: '✓';
-  position: absolute;
-  left: 0;
-  color: var(--ifm-color-primary);
-  font-weight: bold;
-}
-
-.cardFooter {
-  padding: 1rem 1.5rem 1.5rem;
-  margin-top: auto;
-}
-
-.cardFooter .button {
-  font-weight: 600;
-  border-radius: 8px;
-  transition: all 0.2s ease;
-}
-
-.cardFooter .button:hover {
-  transform: translateY(-1px);
+  font-size: var(--bs-text-base);
 }
 
 @media screen and (max-width: 996px) {
@@ -99,17 +95,26 @@
     padding: 2rem 0;
   }
   
+  .card {
+    padding: var(--bs-space-4);
+  }
+  
   .pluginIcon {
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
+    margin-right: var(--bs-space-4);
   }
   
-  .pluginIcon svg {
-    width: 60px;
-    height: 60px;
+  .pluginIcon img {
+    width: 50px;
+    height: 50px;
   }
   
-  .cardTitle h3 {
-    font-size: 1.2rem;
+  .cardTitle {
+    font-size: var(--bs-text-lg) !important;
+  }
+  
+  .description {
+    font-size: var(--bs-text-sm);
   }
 }

@@ -1,32 +1,335 @@
 /**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
+ * BracketSpace Design System - Custom CSS
+ * Complete branding implementation based on bracketspace-design-system.json
  */
 
-/* You can override the default Infima variables here. */
+/* Import Adobe Fonts */
+@import url('https://use.typekit.net/zjt3gvh.css');
+
+/* BracketSpace Design System Variables */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  /* Primary Colors */
+  --bs-primary-50: #F4F0FE;
+  --bs-primary-100: #E9E2FD;
+  --bs-primary-200: #D6C8FB;
+  --bs-primary-300: #C0A9F8;
+  --bs-primary-400: #A845F7;
+  --bs-primary-500: #8A45F7;
+  --bs-primary-600: #7E45F9;
+  --bs-primary-700: #4E3FFC;
+  --bs-primary-800: #2F1B96;
+  --bs-primary-900: #19153E;
+
+  /* Secondary Colors */
+  --bs-secondary-50: #F8F9FA;
+  --bs-secondary-100: #F1F3F4;
+  --bs-secondary-200: #E8EAED;
+  --bs-secondary-300: #DADCE0;
+  --bs-secondary-400: #BDC1C6;
+  --bs-secondary-500: #9AA0A6;
+  --bs-secondary-600: #80868B;
+  --bs-secondary-700: #5F6368;
+  --bs-secondary-800: #3C4043;
+  --bs-secondary-900: #202124;
+
+  /* Text Colors */
+  --bs-text-primary: #19153E;
+  --bs-text-secondary: #29353F;
+  --bs-text-tertiary: #717C85;
+  --bs-text-quaternary: #98A5B2;
+  --bs-text-white: #FFFFFF;
+
+  /* Background Colors */
+  --bs-bg-primary: #FFFFFF;
+  --bs-bg-secondary: #F6F7F8;
+  --bs-bg-tertiary: #EEEEEE;
+  --bs-bg-dark: #19153E;
+
+  /* Gradients */
+  --bs-gradient-primary: linear-gradient(135deg, #8A45F7 0%, #4E3FFC 100%);
+  --bs-gradient-secondary: linear-gradient(135deg, #A745F7 0%, #7E45F9 100%);
+  --bs-gradient-light: linear-gradient(135deg, #F4F0FE 0%, #E9E2FD 100%);
+
+  /* Status Colors */
+  --bs-status-success: #28A745;
+  --bs-status-warning: #FFC107;
+  --bs-status-error: #DC3545;
+  --bs-status-info: #17A2B8;
+
+  /* Typography */
+  --bs-font-heading: 'schnebel-sans-pro', sans-serif;
+  --bs-font-body: 'soleil', sans-serif;
+  --bs-font-fallback: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+
+  /* Font Sizes */
+  --bs-text-xs: 12px;
+  --bs-text-sm: 14px;
+  --bs-text-base: 16px;
+  --bs-text-lg: 18px;
+  --bs-text-xl: 20px;
+  --bs-text-2xl: 24px;
+  --bs-text-3xl: 30px;
+  --bs-text-4xl: 36px;
+  --bs-text-5xl: 42px;
+  --bs-text-6xl: 62px;
+
+  /* Spacing */
+  --bs-space-0: 0px;
+  --bs-space-1: 4px;
+  --bs-space-2: 8px;
+  --bs-space-3: 12px;
+  --bs-space-4: 16px;
+  --bs-space-5: 20px;
+  --bs-space-6: 24px;
+  --bs-space-8: 32px;
+  --bs-space-10: 40px;
+  --bs-space-12: 48px;
+  --bs-space-16: 64px;
+  --bs-space-20: 80px;
+  --bs-space-24: 96px;
+  --bs-space-32: 128px;
+
+  /* Border Radius */
+  --bs-radius-none: 0px;
+  --bs-radius-sm: 3px;
+  --bs-radius-base: 6px;
+  --bs-radius-md: 8px;
+  --bs-radius-lg: 12px;
+  --bs-radius-xl: 16px;
+  --bs-radius-2xl: 24px;
+  --bs-radius-3xl: 30px;
+  --bs-radius-full: 9999px;
+
+  /* Shadows */
+  --bs-shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --bs-shadow-base: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  --bs-shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --bs-shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --bs-shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  --bs-shadow-2xl: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+
+  /* Plugin Colors */
+  --bs-notification-primary: #8A45F7;
+  --bs-notification-gradient: linear-gradient(135deg, #8A45F7 0%, #4E3FFC 100%);
+  --bs-acm-primary: #2563EB;
+  --bs-acm-gradient: linear-gradient(135deg, #3B82F6 0%, #1D4ED8 100%);
+  --bs-pretty-email-primary: #EC4899;
+  --bs-pretty-email-gradient: linear-gradient(135deg, #F472B6 0%, #BE185D 100%);
+  --bs-easy-watermark-primary: #10B981;
+  --bs-easy-watermark-gradient: linear-gradient(135deg, #34D399 0%, #047857 100%);
+
+  /* Docusaurus Variable Overrides */
+  --ifm-color-primary: var(--bs-primary-500);
+  --ifm-color-primary-dark: var(--bs-primary-600);
+  --ifm-color-primary-darker: var(--bs-primary-700);
+  --ifm-color-primary-darkest: var(--bs-primary-800);
+  --ifm-color-primary-light: var(--bs-primary-400);
+  --ifm-color-primary-lighter: var(--bs-primary-300);
+  --ifm-color-primary-lightest: var(--bs-primary-200);
+  
+  --ifm-font-family-base: var(--bs-font-body);
+  --ifm-heading-font-family: var(--bs-font-heading);
+  --ifm-font-size-base: var(--bs-text-base);
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  --ifm-navbar-height: 74px;
+  --ifm-navbar-background-color: rgba(255, 255, 255, 0.95);
+  --ifm-navbar-shadow: var(--bs-shadow-sm);
+  
+  --ifm-footer-background-color: var(--bs-bg-dark);
+  --ifm-footer-color: var(--bs-text-quaternary);
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+/* BracketSpace Mixed Design - Single Mode */
+
+/* Typography System */
+body {
+  font-family: var(--bs-font-body);
+  color: var(--bs-text-tertiary);
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--bs-font-heading);
+  font-weight: 500;
+  color: var(--bs-text-primary);
+}
+
+h1 {
+  font-size: var(--bs-text-6xl);
+  line-height: 1.0;
+  color: var(--bs-text-primary);
+}
+
+/* Hero section specific H1 styling - white color against dark background */
+.hero h1 {
+  color: var(--bs-text-white);
+}
+
+h2 {
+  font-size: var(--bs-text-5xl);
+  line-height: 1.0;
+  margin-bottom: 14px;
+}
+
+h3 {
+  font-size: var(--bs-text-2xl);
+  line-height: 1.1;
+  margin-bottom: 14px;
+}
+
+h4 {
+  font-size: var(--bs-text-lg);
+  line-height: 1.0;
+  margin-bottom: 3px;
+}
+
+/* Button Components */
+.button {
+  border-radius: var(--bs-radius-full);
+  padding: 12px 22px;
+  font-size: var(--bs-text-sm);
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.button--primary {
+  background: var(--bs-gradient-primary);
+  color: var(--bs-text-white);
+  box-shadow: 0 4px 15px rgba(138, 69, 247, 0.3);
+}
+
+.button--primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(138, 69, 247, 0.4);
+  color: var(--bs-text-white);
+  text-decoration: none;
+}
+
+.button--secondary {
+  background: transparent;
+  color: var(--bs-primary-500);
+  border: 1.6px solid var(--bs-primary-700);
+}
+
+.button--secondary:hover {
+  background: var(--bs-primary-500);
+  color: var(--bs-text-white);
+  text-decoration: none;
+}
+
+/* Card Components */
+.card {
+  background: var(--bs-bg-primary);
+  border-radius: var(--bs-radius-lg);
+  box-shadow: var(--bs-shadow-md);
+  padding: var(--bs-space-6);
+  border: 1px solid var(--bs-secondary-200);
+  transition: all 0.3s ease;
+}
+
+.card--elevated {
+  border-radius: var(--bs-radius-xl);
+  box-shadow: var(--bs-shadow-xl);
+  padding: var(--bs-space-8);
+  border: none;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--bs-shadow-lg);
+}
+
+/* Navigation Enhancements - Dark Header */
+.navbar {
+  background: var(--bs-bg-dark) !important;
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(138, 69, 247, 0.2);
+}
+
+.navbar__brand {
+  font-family: var(--bs-font-heading);
+  font-weight: 600;
+  color: var(--bs-text-white) !important;
+}
+
+/* Logo-only navbar styling */
+.navbar__logo {
+  height: 40px;
+  margin-right: 0;
+}
+
+/* Ensure brand link has proper spacing when no title */
+.navbar__brand[title=""] .navbar__logo {
+  margin-right: 0;
+}
+
+.navbar__link {
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--bs-primary-100) !important;
+  transition: color 0.3s ease;
+}
+
+.navbar__link:hover {
+  color: var(--bs-text-white) !important;
+}
+
+/* Hero Section - Static Gradient */
+.hero {
+  background: linear-gradient(135deg, #19153E 0%, #2A1B3D 25%, #3A2A5C 50%, #4E3FFC 100%);
+  color: var(--bs-text-white);
+  padding: 120px 0;
+}
+
+.hero--primary {
+  background: linear-gradient(135deg, #19153E 0%, #2A1B3D 25%, #3A2A5C 50%, #4E3FFC 100%);
+}
+
+.hero__title {
+  color: var(--bs-text-white) !important;
+  font-family: var(--bs-font-heading);
+  font-size: var(--bs-text-6xl);
+  font-weight: 500;
+  line-height: 1.0;
+}
+
+/* General subtitle style - better contrast for light backgrounds */
+.hero__subtitle {
+  color: var(--bs-text-secondary);
+  font-size: var(--bs-text-xl);
+  margin-bottom: var(--bs-space-8);
+}
+
+/* Hero section specific styling - light color against dark background */
+.hero .hero__subtitle {
+  color: var(--bs-primary-100);
+}
+
+/* Footer */
+.footer {
+  background: var(--bs-bg-dark) !important;
+  color: var(--bs-text-quaternary);
+  padding: 60px 0 40px 0;
+}
+
+.footer__title {
+  color: var(--bs-text-white);
+  font-family: var(--bs-font-heading);
+}
+
+.footer__link-item {
+  color: var(--bs-text-quaternary);
+}
+
+.footer__link-item:hover {
+  color: var(--bs-primary-400);
 }
 
 /* Homepage enhancements */
@@ -34,18 +337,209 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Plugin-specific color themes */
+.plugin-notification {
+  --plugin-primary: var(--bs-notification-primary);
+  --plugin-gradient: var(--bs-notification-gradient);
+}
+
+.plugin-advanced-cron-manager {
+  --plugin-primary: var(--bs-acm-primary);
+  --plugin-gradient: var(--bs-acm-gradient);
+}
+
+.plugin-pretty-email {
+  --plugin-primary: var(--bs-pretty-email-primary);
+  --plugin-gradient: var(--bs-pretty-email-gradient);
+}
+
+.plugin-easy-watermark {
+  --plugin-primary: var(--bs-easy-watermark-primary);
+  --plugin-gradient: var(--bs-easy-watermark-gradient);
+}
+
+/* Plugin card styling */
+.plugin-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.plugin-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: var(--plugin-gradient, var(--bs-gradient-primary));
+}
+
+.plugin-card .button--primary {
+  background: var(--plugin-gradient, var(--bs-gradient-primary));
+}
+
 /* Improve button spacing on homepage */
 .buttons {
   gap: 1rem;
   flex-wrap: wrap;
+  margin-top: var(--bs-space-6);
 }
 
-/* Ensure consistent card heights */
-.row {
-  display: flex;
-  flex-wrap: wrap;
+/* Removed global row/col styles that interfered with Infima grid system */
+
+/* BracketSpace Mixed Design Adjustments */
+
+/* Search Bar Enhancements */
+.DocSearch-Button {
+  background: rgba(255, 255, 255, 0.1) !important;
+  border: 1px solid rgba(138, 69, 247, 0.3) !important;
+  color: var(--bs-text-white) !important;
+  border-radius: var(--bs-radius-lg) !important;
+  transition: all 0.3s ease !important;
 }
 
-.col {
-  display: flex;
+.DocSearch-Button:hover {
+  background: rgba(255, 255, 255, 0.15) !important;
+  border-color: rgba(138, 69, 247, 0.5) !important;
+}
+
+.DocSearch-Button-Placeholder {
+  color: rgba(255, 255, 255, 0.8) !important;
+  font-weight: 400 !important;
+}
+
+.DocSearch-Button-Keys {
+  color: rgba(255, 255, 255, 0.9) !important;
+  background: rgba(255, 255, 255, 0.1) !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  border-radius: var(--bs-radius-sm) !important;
+  font-weight: 600 !important;
+}
+
+/* Override Docusaurus navbar breakpoint from 996px to 1200px */
+@media (max-width: 1200px) {
+  /* Force hamburger toggle to show */
+  .navbar__toggle {
+    display: flex !important;
+  }
+  
+  /* Hide all navigation links that have both navbar__item and navbar__link classes */
+  .navbar__item.navbar__link {
+    display: none !important;
+  }
+  
+  /* Hide navigation items containers on left side */
+  .navbar__items .navbar__item:not(.navbar__toggle) {
+    display: none !important;
+  }
+  
+  /* Keep search visible at all times */
+  .navbar__search,
+  .navbarSearchContainer_Bca1,
+  .searchBarContainer_NW3z {
+    display: block !important;
+  }
+  
+  /* Make sure the navbar items container stays visible but content is hidden */
+  .navbar__items {
+    display: flex !important;
+  }
+  
+  /* Keep only brand logo visible */
+  .navbar__brand {
+    display: flex !important;
+  }
+}
+
+/* Hamburger Menu Fixes */
+.navbar__toggle {
+  color: var(--bs-text-white) !important;
+  border: none !important;
+  background: transparent !important;
+  padding: 8px !important;
+  border-radius: var(--bs-radius-sm) !important;
+  transition: background 0.3s ease !important;
+}
+
+.navbar__toggle:hover {
+  background: rgba(255, 255, 255, 0.1) !important;
+}
+
+.navbar-sidebar {
+  background: var(--bs-bg-dark) !important;
+  border-right: 1px solid rgba(138, 69, 247, 0.2) !important;
+  height: 100vh !important;
+  min-height: 100vh !important;
+}
+
+.navbar-sidebar__backdrop {
+  height: 100vh !important;
+  min-height: 100vh !important;
+}
+
+.navbar-sidebar__brand {
+  background: var(--bs-bg-dark) !important;
+  border-bottom: 1px solid rgba(138, 69, 247, 0.2) !important;
+  height: auto !important;
+  min-height: var(--ifm-navbar-height) !important;
+}
+
+.navbar-sidebar__items {
+  background: var(--bs-bg-dark) !important;
+  height: auto !important;
+  min-height: 0 !important;
+  flex: 1 !important;
+  padding: var(--bs-space-4) 0 !important;
+}
+
+.navbar-sidebar .menu__link {
+  color: var(--bs-primary-100) !important;
+  border-radius: var(--bs-radius-sm) !important;
+  margin: 4px 8px !important;
+  padding: 12px 16px !important;
+}
+
+.navbar-sidebar .menu__link:hover {
+  background: rgba(138, 69, 247, 0.1) !important;
+  color: var(--bs-text-white) !important;
+}
+
+.navbar-sidebar .menu__link--active {
+  background: rgba(138, 69, 247, 0.2) !important;
+  color: var(--bs-text-white) !important;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .hero__title {
+    font-size: var(--bs-text-4xl);
+  }
+  
+  h2 {
+    font-size: var(--bs-text-3xl);
+  }
+  
+  .buttons {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .button {
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Wider search bar on mobile */
+  .DocSearch-Button {
+    width: 100% !important;
+    max-width: none !important;
+  }
+}
+
+@media (max-width: 1024px) {
+  /* Wider search bar on tablet */
+  .DocSearch-Button {
+    width: 280px !important;
+    max-width: 280px !important;
+  }
 }
