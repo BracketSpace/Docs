@@ -543,3 +543,34 @@ html {
     max-width: 280px !important;
   }
 }
+
+/* Very small mobile screens - prevent logo from overlapping search */
+@media (max-width: 389px) {
+  .navbar__logo {
+    height: 30px;
+  }
+  
+  /* Scale down headings for better readability */
+  .hero__title {
+    font-size: var(--bs-text-3xl);
+  }
+  
+  h1 {
+    font-size: var(--bs-text-4xl);
+  }
+  
+  h2 {
+    font-size: var(--bs-text-2xl);
+  }
+  
+  h3 {
+    font-size: var(--bs-text-xl);
+  }
+}
+
+/* Extra small mobile screens - make logo even smaller */
+@media (max-width: 324px) {
+  .navbar__logo {
+    height: 24px;
+  }
+}

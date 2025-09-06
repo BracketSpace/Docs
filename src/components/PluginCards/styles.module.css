@@ -118,3 +118,10 @@
     font-size: var(--bs-text-sm);
   }
 }
+
+@media screen and (max-width: 629px) {
+  .pluginCard {
+    width: 100%;
+    flex: 0 0 100%;
+  }
+}
