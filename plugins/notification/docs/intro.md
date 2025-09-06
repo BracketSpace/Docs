@@ -1,5 +1,7 @@
 ---
 slug: /
+sidebar_label: Notification
+title: Notification Plugin
 ---
 
 # Notification Plugin

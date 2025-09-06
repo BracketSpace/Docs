@@ -1,5 +1,7 @@
 ---
 slug: /
+sidebar_label: Advanced Cron Manager
+title: Advanced Cron Manager Plugin
 ---
 
 # Advanced Cron Manager

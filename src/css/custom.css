@@ -28,3 +28,24 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+/* Homepage enhancements */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Improve button spacing on homepage */
+.buttons {
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+/* Ensure consistent card heights */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col {
+  display: flex;
+}

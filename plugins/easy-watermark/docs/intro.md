@@ -1,5 +1,7 @@
 ---
 slug: /
+sidebar_label: Easy Watermark
+title: Easy Watermark Plugin
 ---
 
 # Easy Watermark

@@ -1,5 +1,7 @@
 ---
 slug: /
+sidebar_label: Pretty Email
+title: Pretty Email Plugin
 ---
 
 # Pretty Email

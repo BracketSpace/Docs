@@ -1,0 +1,23 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="200" rx="20" fill="#2e8555"/>
+  <g transform="translate(50,50)">
+    <!-- Clock face -->
+    <circle cx="50" cy="50" r="40" fill="white" stroke="none"/>
+    <circle cx="50" cy="50" r="35" fill="none" stroke="#2e8555" stroke-width="2"/>
+    
+    <!-- Clock numbers (12, 3, 6, 9) -->
+    <text x="50" y="20" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#2e8555">12</text>
+    <text x="80" y="55" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#2e8555">3</text>
+    <text x="50" y="85" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#2e8555">6</text>
+    <text x="20" y="55" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#2e8555">9</text>
+    
+    <!-- Clock hands -->
+    <line x1="50" y1="50" x2="50" y2="30" stroke="#2e8555" stroke-width="3" stroke-linecap="round"/>
+    <line x1="50" y1="50" x2="65" y2="50" stroke="#2e8555" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="50" cy="50" r="3" fill="#2e8555"/>
+    
+    <!-- Cron symbols -->
+    <text x="15" y="15" font-family="monospace" font-size="10" fill="white">* * * * *</text>
+    <text x="75" y="85" font-family="monospace" font-size="8" fill="white">cron</text>
+  </g>
+</svg>

@@ -65,6 +65,9 @@ Follow Conventional Commits format:
 - `npm run typecheck` - Run TypeScript checks
 - `npm run lint` - Run linting
 
+### Content Guidelines
+- Images, should live close to the markdown files
+
 ## Deployment
 - Hosted on Cloudflare Pages
 - Auto-deploy from main branch
@@ -74,11 +77,10 @@ Follow Conventional Commits format:
 ### Phase 1: Initial Setup
 - [x] Set up Docusaurus v3 project with TypeScript configuration
 - [x] Remove the blog feature
-- [ ] Configure multi-doc setup with main site and 4 plugin subsites
-- [ ] Create URL routing to maintain existing SEO structure
+- [x] Configure multi-doc setup with main site and 4 plugin subsites
 
 ### Phase 2: Infrastructure
-- [ ] Set up Cloudflare Pages deployment with custom domain
+- [x] Set up Cloudflare Pages deployment with custom domain
 - [ ] Design main documentation site with plugin references
 - [ ] Create base theme and BracketSpace branding
 
@@ -88,6 +90,8 @@ Follow Conventional Commits format:
 - [ ] Migrate Advanced Cron Manager docs with addon pages
 - [ ] Migrate Pretty Email docs with addon pages
 - [ ] Migrate Easy Watermark docs with addon pages
+- [ ] Ensure URL routing is the same as existing SEO structure
+- [ ] Common docs copy
 
 ### Phase 4: SEO & Features
 - [ ] Set up redirects from old URLs to preserve SEO

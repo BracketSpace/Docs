@@ -44,6 +44,7 @@ const config: Config = {
         path: 'plugins/notification/docs',
         routeBasePath: 'notification',
         sidebarPath: './plugins/notification/notification.ts',
+        breadcrumbs: true,
       },
     ],
     [
@@ -53,6 +54,7 @@ const config: Config = {
         path: 'plugins/advanced-cron-manager/docs',
         routeBasePath: 'advanced-cron-manager',
         sidebarPath: './plugins/advanced-cron-manager/advanced-cron-manager.ts',
+        breadcrumbs: true,
       },
     ],
     [
@@ -62,6 +64,7 @@ const config: Config = {
         path: 'plugins/pretty-email/docs',
         routeBasePath: 'pretty-email',
         sidebarPath: './plugins/pretty-email/pretty-email.ts',
+        breadcrumbs: true,
       },
     ],
     [
@@ -71,6 +74,7 @@ const config: Config = {
         path: 'plugins/easy-watermark/docs',
         routeBasePath: 'easy-watermark',
         sidebarPath: './plugins/easy-watermark/easy-watermark.ts',
+        breadcrumbs: true,
       },
     ],
   ],
@@ -127,12 +131,6 @@ const config: Config = {
         src: 'img/logo.svg',
       },
       items: [
-        {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'Documentation',
-        },
         {
           label: 'Notification',
           to: '/notification',
