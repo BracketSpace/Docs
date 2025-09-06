@@ -124,11 +124,15 @@ const config: Config = {
   themeConfig: {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
+    colorMode: {
+      disableSwitch: true,
+      defaultMode: 'light',
+    },
     navbar: {
-      title: 'BracketSpace',
+      title: '',
       logo: {
         alt: 'BracketSpace Logo',
-        src: 'img/logo.svg',
+        src: 'img/bracketspace-logo.svg',
       },
       items: [
         {
@@ -203,8 +207,8 @@ const config: Config = {
               href: 'https://bracketspace.com',
             },
             {
-              label: 'Support',
-              href: 'https://bracketspace.com/support/',
+              label: 'Department of Web',
+              href: 'https://departmentofweb.com/',
             },
           ],
         },
