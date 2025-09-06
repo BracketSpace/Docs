@@ -86,23 +86,19 @@ Follow Conventional Commits format:
 - [x] Favicon from bracketspace.com
 
 ### Phase 3: Content Migration
-- [ ] Process Gitbook markdown files for compatibility
-- [ ] Migrate Notification plugin docs with addon pages
-- [ ] Migrate Advanced Cron Manager docs with addon pages
-- [ ] Migrate Pretty Email docs with addon pages
+- [x] Process Gitbook markdown files for compatibility
 - [ ] Migrate Easy Watermark docs with addon pages
-- [ ] Ensure URL routing is the same as existing SEO structure
-- [ ] Common docs copy
+- [ ] Migrate Pretty Email docs with addon pages
+- [ ] Migrate Notification plugin docs with addon pages
+- [ ] Common docs
 
 ### Phase 4: SEO & Features
+- [ ] Ensure URL routing is the same as existing SEO structure
 - [ ] Set up redirects from old URLs to preserve SEO
-- [ ] Implement versioning for plugin documentation
 - [ ] Configure search across main site and all subsites
 - [ ] Set up SEO optimization with existing meta tags
 
 ### Phase 5: Deployment & Testing
-- [ ] Create automated build and deployment pipeline
 - [ ] Test all plugin documentation migrations
-- [ ] Validate SEO preservation and URL structure
 - [ ] Set up analytics and monitoring
 - [ ] Perform final testing and launch
