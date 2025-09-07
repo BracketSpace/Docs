@@ -1,4 +1,5 @@
 ---
+id: global-template-settings
 title: "Global Template Settings"
 sidebar_label: "Global Template Settings"
 sidebar_position: 0

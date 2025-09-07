@@ -89,10 +89,12 @@ Follow Conventional Commits format:
 - [x] Process Gitbook markdown files for compatibility
 - [x] Migrate Easy Watermark docs with addon pages
 - [x] Migrate Pretty Email docs with addon pages
-- [ ] Migrate Notification plugin docs with addon pages
+- [x] Migrate Notification plugin docs with addon pages
+- [ ] Advanced Cron Manager docs
 - [ ] Common docs
 
 ### Phase 4: SEO & Features
+- [ ] Update social card
 - [ ] Fix syntax highlighting
 - [ ] Fix breadcrumbs
 - [ ] Install [sitemap](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-sitemap)

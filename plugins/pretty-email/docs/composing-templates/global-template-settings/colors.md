@@ -11,7 +11,7 @@ For each template, you can set the color scheme that will be used throughout thi
 
 Go to `Email Template` tab in the template edit page view, and to the `Colors` section:
 
-![Colors section](../assets/obraz-25.png)
+![Colors section](../../assets/obraz%20(25).png)
 
 Here you can select default color for each of 5 elements on the template.
 

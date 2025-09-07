@@ -45,6 +45,26 @@ const config: Config = {
         routeBasePath: 'notification',
         sidebarPath: './plugins/notification/notification.ts',
         breadcrumbs: true,
+        lastVersion: 'current',
+        includeCurrentVersion: true,
+        versions: {
+          current: {
+            label: 'v9 (Current)',
+            banner: 'none',
+          },
+          '8': {
+            label: 'v8',
+            banner: 'unmaintained',
+          },
+          '7': {
+            label: 'v7', 
+            banner: 'unmaintained',
+          },
+          '6': {
+            label: 'v6',
+            banner: 'unmaintained',
+          },
+        },
       },
     ],
     [
@@ -154,6 +174,11 @@ const config: Config = {
           label: 'Easy Watermark',
           to: '/easy-watermark',
           position: 'left',
+        },
+        {
+          type: 'docsVersionDropdown',
+          docsPluginId: 'notification',
+          position: 'right',
         },
         {
           href: 'https://bracketspace.com',
