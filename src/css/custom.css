@@ -590,3 +590,48 @@ html {
     height: 24px;
   }
 }
+
+/* Sidebar Section Headers - Category Based Approach */
+.sidebar-section-header {
+  margin: var(--bs-space-6) 0 var(--bs-space-3) 0 !important;
+}
+
+/* Style only the category label itself */
+.sidebar-section-header > .menu__list-item-collapsible > .menu__link {
+  font-size: var(--bs-text-sm) !important;
+  font-weight: 800 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 1px !important;
+  color: var(--bs-text-secondary) !important;
+  font-family: var(--bs-font-heading) !important;
+  padding: var(--bs-space-3) var(--bs-space-4) !important;
+  margin-top: var(--bs-space-2) !important;
+  cursor: default !important;
+  pointer-events: none !important;
+}
+
+/* Remove all hover effects completely from section headers */
+.sidebar-section-header > .menu__list-item-collapsible > .menu__link:hover,
+.sidebar-section-header > .menu__list-item-collapsible > .menu__link:focus,
+.sidebar-section-header > .menu__list-item-collapsible > .menu__link:active,
+.sidebar-section-header > .menu__list-item-collapsible:hover > .menu__link,
+.sidebar-section-header > .menu__list-item-collapsible:focus > .menu__link {
+  color: var(--bs-text-secondary) !important;
+  background: transparent !important;
+  background-color: transparent !important;
+  text-decoration: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+/* Also target the parent collapsible container */
+.sidebar-section-header > .menu__list-item-collapsible:hover,
+.sidebar-section-header > .menu__list-item-collapsible:focus {
+  background: transparent !important;
+  background-color: transparent !important;
+}
+
+/* Hide the expand/collapse arrow for section headers */
+.sidebar-section-header .menu__caret {
+  display: none !important;
+}

@@ -87,7 +87,7 @@ Follow Conventional Commits format:
 
 ### Phase 3: Content Migration
 - [x] Process Gitbook markdown files for compatibility
-- [ ] Migrate Easy Watermark docs with addon pages
+- [x] Migrate Easy Watermark docs with addon pages
 - [ ] Migrate Pretty Email docs with addon pages
 - [ ] Migrate Notification plugin docs with addon pages
 - [ ] Common docs
