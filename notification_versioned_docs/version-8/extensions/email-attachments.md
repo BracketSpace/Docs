@@ -1,6 +1,6 @@
 ---
 title: Email Attachments
-sidebar_position: 6
+id: email-attachments
 description: Version 1.0.0 or later
 ---
 

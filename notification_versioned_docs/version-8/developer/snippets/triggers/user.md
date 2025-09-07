@@ -1,6 +1,6 @@
 ---
+id: user
 title: User
-sidebar_position: 2
 ---
 
 # User
@@ -10,18 +10,15 @@ sidebar_position: 2
 ```php
 use BracketSpace\Notification\Defaults\MergeTag;
 
-add_action(
-    'notification/trigger/merge_tags',
-    function($trigger) {
-        if ($trigger->getSlug() !== 'user/registered') {
-            return;
-        }
+add_action( 'notification/trigger/merge_tags', function( $trigger ) {
+	if ( $trigger->get_slug() !== 'user/registered' ) {
+		return;
+	}
 
-        $trigger->addMergeTag(new MergeTag\User\UserNicename());
-        $trigger->addMergeTag(new MergeTag\User\UserDisplayName());
-        $trigger->addMergeTag(new MergeTag\User\UserFirstName());
-        $trigger->addMergeTag(new MergeTag\User\UserLastName());
-        $trigger->addMergeTag(new MergeTag\User\UserBio());
-    }
-);
+	$trigger->add_merge_tag( new MergeTag\User\UserNicename() );
+	$trigger->add_merge_tag( new MergeTag\User\UserDisplayName() );
+	$trigger->add_merge_tag( new MergeTag\User\UserFirstName() );
+	$trigger->add_merge_tag( new MergeTag\User\UserLastName() );
+	$trigger->add_merge_tag( new MergeTag\User\UserBio() );
+} );
 ```

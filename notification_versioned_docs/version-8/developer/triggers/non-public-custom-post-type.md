@@ -1,6 +1,6 @@
 ---
+id: non-public-custom-post-type
 title: Enable support for non-public Custom Post Type
-sidebar_position: 3
 ---
 
 # Enable support for non-public Custom Post Type
@@ -8,17 +8,14 @@ sidebar_position: 3
 By default, you can select only public post types in the Notification settings. To add a support for non-public post type you need to add it via a filter:
 
 ```php
-add_filter(
-    'notification/settings/triggers/valid_post_types',
-    function($postTypes)
-    {
-        // Slug is the key and Singular name is the value.
-        $postTypes['non_public_post_type_slug'] = __('Non Public Post Type');
-        return $postTypes;
-    },
-    10,
-    2
-);
+add_filter( 'notification/settings/triggers/valid_post_types', function( $post_types ) {
+
+	// Slug is the key and Singular name is the value.
+	$post_types['non_public_post_type_slug'] = __( 'Non Public Post Type' );
+
+	return $post_types;
+
+}, 10, 2 );
 ```
 
 :::warning

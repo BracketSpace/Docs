@@ -1,11 +1,12 @@
 ---
 title: Custom Fields
-sidebar_position: 4
+id: readme
+description: Documentation for version 2.1 or later
 ---
 
 # Custom Fields
 
-:::tip Download
+:::tip
 [Download this extension](https://bracketspace.com/downloads/notification-custom-fields/)
 :::
 
@@ -58,7 +59,7 @@ Which is an equivalent of:
 get_field( $fieldname, $item_id );
 ```
 
-:::note
+:::info
 You can access the first-level array key as well
 :::
 
@@ -207,21 +208,21 @@ Initial value -> replace -> reshape -> replace -> format
 
 So the initial value of User ID can be replaced with a whole User object and this object can be formatted as JSON.
 
-:::note
-Pipes can be mixed together and each pipe can be used with the array accessors. They work with ACF and regular meta Merge Tags.
-[See the example](#examples).
+:::info
+Pipes can be mixed together and each pipe can be used with the array accessors. They work with ACF and regular meta Merge Tags.\
+[See the example](./#examples).
 :::
 
 All supported pipelines:
 
 | Objects                 | Manipulators      | Formatters      |
 | ----------------------- | ----------------- | --------------- |
-| [post](#post)         | [first](#first) | [bool](#bool) |
-| [postmeta](#postmeta) | [last](#last)   | [join](#join) |
-| [term](#term)         | [pluck](#pluck) | [json](#json) |
-| [termmeta](#termmeta) |                   |                 |
-| [user](#user)         |                   |                 |
-| [usermeta](#usermeta) |                   |                 |
+| [post](./#post)         | [first](./#first) | [bool](./#bool) |
+| [postmeta](./#postmeta) | [last](./#last)   | [join](./#join) |
+| [term](./#term)         | [pluck](./#pluck) | [json](./#json) |
+| [termmeta](./#termmeta) |                   |                 |
+| [user](./#user)         |                   |                 |
+| [usermeta](./#usermeta) |                   |                 |
 
 #### post
 

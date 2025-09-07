@@ -1,7 +1,6 @@
 ---
 id: how-to-escape-curly-bracket
-title: How to escape curly bracket character
-sidebar_label: How to escape curly bracket
+title: How to Escape { Character
 sidebar_position: 1
 ---
 
@@ -12,6 +11,7 @@ Escaping the `{` character is particularly helpful if you want to pass raw JSON 
 You can do it like this:
 
 ```
-!{this_wont_be_resolved}
-!{"this is":"how the JSON should look like"}
+!\{this_wont_be_resolved\}
+!\{"this is":"how the JSON should look like"\}
 ```
+

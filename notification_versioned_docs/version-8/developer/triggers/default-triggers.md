@@ -1,26 +1,32 @@
 ---
 title: List of all default Triggers
+id: default-triggers
 description: A list of all Trigger names and slugs
-sidebar_position: 1
 ---
 
 # List of all default Triggers
 
-## Comment
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
-This covers all the comment types. Use `comment`, `pingback`, `trackback`, `another_comment_type` instead of the `{comment_type_slug}`.
+<Tabs>
+<TabItem value="comment" label="Comment">
+
+This covers all the comment types. Use `comment`, `pingback`, `trackback`, `another_comment_type` instead of the `\{comment_type_slug\}`.
 
 | Trigger name       | Trigger slug                             |
 | ------------------ | ---------------------------------------- |
-| Comment added      | `comment/{comment_type_slug}/added`      |
-| Comment approved   | `comment/{comment_type_slug}/approved`   |
-| Comment replied    | `comment/{comment_type_slug}/replied`    |
-| Comment spammed    | `comment/{comment_type_slug}/spammed`    |
-| Comment trashed    | `comment/{comment_type_slug}/trashed`    |
-| Comment unapproved | `comment/{comment_type_slug}/unapproved` |
-| Comment published  | `comment/{comment_type_slug}/published`  |
+| Comment added      | `comment/\{comment_type_slug\}/added`      |
+| Comment approved   | `comment/\{comment_type_slug\}/approved`   |
+| Comment replied    | `comment/\{comment_type_slug\}/replied`    |
+| Comment spammed    | `comment/\{comment_type_slug\}/spammed`    |
+| Comment trashed    | `comment/\{comment_type_slug\}/trashed`    |
+| Comment unapproved | `comment/\{comment_type_slug\}/unapproved` |
+| Comment published  | `comment/\{comment_type_slug\}/published`  |
 
-## Media
+</TabItem>
+
+<TabItem value="media" label="Media">
 
 | Trigger name  | Trigger slug    |
 | ------------- | --------------- |
@@ -28,7 +34,9 @@ This covers all the comment types. Use `comment`, `pingback`, `trackback`, `anot
 | Media trashed | `media/trashed` |
 | Media updated | `media/updated` |
 
-## Plugin
+</TabItem>
+
+<TabItem value="plugin" label="Plugin">
 
 | Trigger name       | Trigger slug         |
 | ------------------ | -------------------- |
@@ -38,33 +46,39 @@ This covers all the comment types. Use `comment`, `pingback`, `trackback`, `anot
 | Plugin removed     | `plugin/removed`     |
 | Plugin updated     | `plugin/updated`     |
 
-## Post
+</TabItem>
 
-This covers all the custom post types, as well. Use `post`, `page`, `product`, `another_post_type` instead of the `{post_type_slug}`.
+<TabItem value="post" label="Post">
+
+This covers all the custom post types, as well. Use `post`, `page`, `product`, `another_post_type` instead of the `\{post_type_slug\}`.
 
 | Trigger name             | Trigger slug                                |
 | ------------------------ | ------------------------------------------- |
-| Post added               | `post/{post_type_slug}/added`               |
-| Post saved as a draft    | `post/{post_type_slug}/drafted`             |
-| Post sent for review     | `post/{post_type_slug}/pending`             |
-| Post approved            | `post/{post_type_slug}/approved`            |
-| Post published           | `post/{post_type_slug}/published`           |
-| Post published privately | `post/{post_type_slug}/published-privately` |
-| Post trashed             | `post/{post_type_slug}/trashed`             |
-| Post updated             | `post/{post_type_slug}/updated`             |
-| Post scheduled           | `post/{post_type_slug}/scheduled`           |
+| Post added               | `post/\{post_type_slug\}/added`               |
+| Post saved as a draft    | `post/\{post_type_slug\}/drafted`             |
+| Post sent for review     | `post/\{post_type_slug\}/pending`             |
+| Post approved            | `post/\{post_type_slug\}/approved`            |
+| Post published           | `post/\{post_type_slug\}/published`           |
+| Post published privately | `post/\{post_type_slug\}/published-privately` |
+| Post trashed             | `post/\{post_type_slug\}/trashed`             |
+| Post updated             | `post/\{post_type_slug\}/updated`             |
+| Post scheduled           | `post/\{post_type_slug\}/scheduled`           |
 
-## Taxonomy
+</TabItem>
 
-This covers all the taxonomies. Use `category`, `post_tag`, `another_taxonomy` instead of the `{taxonomy_slug}`.
+<TabItem value="taxonomy" label="Taxonomy">
+
+This covers all the taxonomies. Use `category`, `post_tag`, `another_taxonomy` instead of the `\{taxonomy_slug\}`.
 
 | Trigger name          | Trigger slug                       |
 | --------------------- | ---------------------------------- |
-| Taxonomy term created | `taxonomy/{taxonomy_slug}/created` |
-| Taxonomy term deleted | `taxonomy/{taxonomy_slug}/deleted` |
-| Taxonomy term updated | `taxonomy/{taxonomy_slug}/updated` |
+| Taxonomy term created | `taxonomy/\{taxonomy_slug\}/created` |
+| Taxonomy term deleted | `taxonomy/\{taxonomy_slug\}/deleted` |
+| Taxonomy term updated | `taxonomy/\{taxonomy_slug\}/updated` |
 
-## Theme
+</TabItem>
+
+<TabItem value="theme" label="Theme">
 
 | Trigger name    | Trigger slug      |
 | --------------- | ----------------- |
@@ -72,7 +86,9 @@ This covers all the taxonomies. Use `category`, `post_tag`, `another_taxonomy` i
 | Theme switched  | `theme/switched`  |
 | Theme updated   | `theme/updated`   |
 
-## User
+</TabItem>
+
+<TabItem value="user" label="User">
 
 | Trigger name                | Trigger slug                  |
 | --------------------------- | ----------------------------- |
@@ -85,19 +101,18 @@ This covers all the taxonomies. Use `category`, `post_tag`, `another_taxonomy` i
 | User profile updated        | `user/profile_updated`        |
 | User registered             | `user/registered`             |
 | User role changed           | `user/role_changed`           |
-| User email change request   | `user/email_change_request`   |
-| User email changed          | `user/email_changed`          |
 
-## WordPress
+</TabItem>
 
-| Trigger name              | Trigger slug                     |
-| ------------------------- | -------------------------------- |
-| Available updates         | `wordpress/updates_available`    |
-| Site email change request | `wordpress/email_change_request` |
-| Site email changed        | `wordpress/email_changed`        |
-| WordPress updated         | `wordpress/updated`              |
+<TabItem value="wordpress" label="WordPress">
 
-## Privacy
+| Trigger name      | Trigger slug                  |
+| ----------------- | ----------------------------- |
+| Available updates | `wordpress/updates_available` |
+
+</TabItem>
+
+<TabItem value="privacy" label="Privacy">
 
 | Trigger name                 | Trigger slug                  |
 | ---------------------------- | ----------------------------- |
@@ -105,3 +120,6 @@ This covers all the taxonomies. Use `category`, `post_tag`, `another_taxonomy` i
 | Personal Data erase request  | `privacy/data-erase-request`  |
 | Personal Data exported       | `privacy/data-exported`       |
 | Personal Data export request | `privacy/data-export-request` |
+
+</TabItem>
+</Tabs>

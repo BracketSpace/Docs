@@ -1,6 +1,6 @@
 ---
+id: automatic-trigger-testing
 title: Automatic Trigger testing
-sidebar_position: 1
 ---
 
 # Automatic Trigger testing
@@ -10,38 +10,39 @@ If you even wondered how you can automatically test your Triggers without setup 
 Use below snippet to create an email notification in background, with one Administrator recipient and all the merge tags in the content. The subject is Trigger name.
 
 ```php
-add_action(
-	'notification/trigger/registered',
-	function($trigger) {
-		$content = '';
-		foreach ($trigger->getMergeTags( 'visible' ) as $merge_tag) {
-			$content .= $merge_tag->getName() . ': {' . $merge_tag->getSlug() . '}' . "\r\n\r\n";
-		}
+add_action( 'notification/trigger/registered', function( $trigger ) {
 
-		$config = [
-			'hash' => 'notification_' . uniqid(),
-			'title' => $trigger->getName(),
-			'trigger' => $trigger,
-			'carriers' => [
-				'email' => [
-					'activated' => true,
-					'enabled' => true,
-					'subject' => $trigger->getName(),
-					'body' => $content,
-					'recipients' => [
-						[
-							'type' => 'administrator',
-							'recipient' => '',
-						],
+	if ( 'post/post/updated' !== $trigger->get_slug() ) {
+		return;
+	}
+
+	$content = '';
+	foreach ( $trigger->get_merge_tags( 'visible' ) as $merge_tag ) {
+		$content .= $merge_tag->get_name() . ': {' . $merge_tag->get_slug() . '}' . "\r\n\r\n";
+	}
+
+	notification( [
+		'hash'     => uniqid(),
+		'title'    => $trigger->get_name(),
+		'trigger'  => $trigger,
+		'carriers' => [
+			'email' => [
+				'activated'  => true,
+				'enabled'    => true,
+				'subject'    => $trigger->get_name(),
+				'body'       => $content,
+				'recipients' => [
+					[
+						'type'      => 'administrator',
+						'recipient' => '',
 					],
 				],
 			],
-			'enabled' => true,
-			'extras' => [],
-			'version' => time(),
-		];
+		],
+		'enabled'  => true,
+		'extras'   => [],
+		'version'  => time(),
+	] );
 
-		\BracketSpace\Notification\Register::notificationFromArray($config);
-	}
-);
+} );
 ```

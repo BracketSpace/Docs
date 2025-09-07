@@ -1,7 +1,7 @@
 ---
 title: Installation
+id: installation
 description: How to download, install and activate the Notification extension
-sidebar_position: 1
 ---
 
 # Installation
@@ -22,6 +22,8 @@ You can download the purchased extension from many sources:
 
 To install the extension plugin please navigate in your WordPress Dashboard to `Plugins` and `Add New`. Then click the Upload Plugin button.
 
+![Uploading a plugin from .zip package](<../assets/image (1).png>)
+
 Select the package you downloaded and click `Install Now` button.
 
 ### Activate the extension
@@ -30,9 +32,11 @@ Why it's important to activate the extension? Because this way you'll get the pl
 
 To activate the plugin simply go to `Notifications` and `Extensions` and in the extension box provide your license key.
 
+![Notification Extension activation box](<../assets/image (6).png>)
+
 Then just click the `Save and activate license` button.
 
-:::note
+:::info
 You can get your license key from the Purchase Receipt screen and email or from your [BracketSpace account Dashboard](https://bracketspace.com/dashboard/licenses/).
 :::
 

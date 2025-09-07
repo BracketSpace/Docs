@@ -1,4 +1,5 @@
 ---
+id: memberpress
 title: MemberPress
 sidebar_position: 2
 ---
@@ -15,3 +16,4 @@ add_filter( 'mepr-wp-mail-recipients', function( $recipients, $subject, $message
   return $recipients;
 }, 11, 4 );
 ```
+

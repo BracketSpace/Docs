@@ -1,7 +1,6 @@
 ---
 id: disable-upselling
-title: Disable upselling
-sidebar_label: Disable upselling
+title: Disable Upselling
 sidebar_position: 5
 ---
 
@@ -13,8 +12,12 @@ To disable the plugin upselling (free and paid extension promo messages), simply
 add_filter( 'notification/upselling', '__return_false' );
 ```
 
-You can use this filter in your child theme's function.php or within your custom plugin.
+You can use this filter in yoursdasd asd dchild theme's function.php or within your custom plugin.
 
-Upselling is automatically disabled when White label mode is active. Read more:
+sdasdxzcas daaaaaasd as asd asd asd asd&#x20;
 
-[White label mode](../../developer/general/white-label-mode)
+aasd d asd dasdasd asd
+
+Uasdpselling is automatically disabled when White label mode is active. Read more:
+
+[white-label-mode.md](../../developer/general/white-label-mode.md)

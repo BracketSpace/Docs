@@ -1,6 +1,6 @@
 ---
 title: Scheduled Triggers
-sidebar_position: 8
+id: scheduled-triggers
 description: Version 2.0.0
 ---
 
@@ -16,9 +16,11 @@ Let's assume that you want to send a notification **7 days after post publicatio
 
 ![The timeline. Each gray dot stands for the scheduled check (default: 1 hour)](../assets/scheduled-triggers-after-static.png)
 
+
+
 The notification **7 days before post publication date** (scheduled post) works the similar way. The time window is as well 1 day. This setting means that it will match any post which has future publication date between 6 and 7 days in the future.
 
-![The timeline](../assets/scheduled-triggers-before-static.png)
+![The timelime](../assets/scheduled-triggers-before-static.png)
 
 ### Behind the scenes
 
@@ -28,7 +30,7 @@ On each of the executions, the proper objects (Posts or Users) are picked from t
 
 ![Schedule running and matching an object](../assets/scheduled-triggers.gif)
 
-If there's a match and Notification gets sent, the object is locked for a specific time.
+If there's a match and Notification gets sent, the object is locked for a specific time.&#x20;
 
 ### Window setting
 
@@ -83,8 +85,9 @@ add_filter( 'notification/scheduled_triggers/picker/post/post_statuses', functio
 
 Follow the below steps when your scheduled messages aren't sent.
 
-1. Make sure WordPress Cron is running correctly. Navigate to WordPress Dashboard -> Tools -> Site Health and search for a warning that cron might not be running correctly. If that's the case, it might help to [hook the WP Cron into the system scheduler](https://developer.wordpress.org/plugins/cron/hooking-wp-cron-into-the-system-task-scheduler/).
+1. Make sure WordPress Cron is running correctly. Navigate to WordPress Dashboard -> Tools -> Site Health and search for a warning that cron might not be running correctly.\
+   If that's the case, it might help to [hook the WP Cron into the system scheduler](https://developer.wordpress.org/plugins/cron/hooking-wp-cron-into-the-system-task-scheduler/).
 2. If you're using the merge tag value, make sure the tag returns a proper date. Simply change the trigger to something easily testable (like Post Updated) and use that merge tag in the body to check its output.
 3. If you're using the merge tag value, make sure the date/time returned is parseable (ie. not translated or in a weird format). To do that, use the [strtotime function tester](https://strtotime.co.uk/) and check the value rendered by the merge tag you're using (see step above)
-4. Ensure you followed [basic deliverability troubleshooting section](../user-guide/troubleshooting#nothing-is-sent)
-5. Ensure the scheduled trigger window setting is not too short. The healthy value is twice as much as the schedule. So if the scheduled trigger runs every 1 hour, the window setting should be set to 2 hours.
+4. Ensure you followed [basic deliverability troubleshooting section](https://docs.bracketspace.com/notification/user-guide/troubleshooting#nothing-is-sent)
+5. Ensure the scheduled trigger window setting is not too short. The healthy value is twice as much as the schedule. So if the scheduled trigger runs every 1 hour, the window setting should be set to 2 hours.&#x20;

@@ -1,7 +1,6 @@
 ---
 id: background-processing
-title: Background processing
-sidebar_label: Background processing
+title: Background Processing
 sidebar_position: 2
 ---
 

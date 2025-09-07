@@ -1,14 +1,13 @@
 ---
+title: Update Broke My Site
 id: update-broke-my-site
-title: Update broke my site
-sidebar_label: Update broke my site
+description: Version 8.0.0 is not compatible with most of the free and premium add-ons!
 sidebar_position: 1
-description: Version 9.0.0 is not compatible with any of the free and premium add-ons!
 ---
 
 # Update broke my site
 
-It's very important to update the Notification plugin in a safe environment and with all the extensions **at the same time.** 
+It's very important to update the Notification plugin in a safe environment and with all the extensions **at the same time.**&#x20;
 
 ## My website is down
 
@@ -26,14 +25,14 @@ From here, you have two options to proceed.
 
 The new Notification version has also security patches, so we advise to upgrade everything as soon as possible.
 
-If your website is up already, just upgrade all the extensions and reactivate the plugins. You can also find the latest plugin packages [on your store account](https://bracketspace.com/dashboard/).
+If your website is up already, just upgrade all the extensions and reactivate the plugins. You can also find the lates plugin packages [on your store account](https://bracketspace.com/dashboard/).
 
 ### Downgrade to the previous Notification version
 
-If you cannot update all the extensions or you don't want to do that, you can download the [Notification v8.0.15 package](https://downloads.wordpress.org/plugin/notification.8.0.15.zip) and downgrade it by going to Plugins -> Add New -> Upload Plugin.
+If you cannot update all the extensions or you don't want to do that, you can download the [Notification v7.2.4 package](https://downloads.wordpress.org/plugin/notification.7.2.4.zip) and downgrade it by going to Plugins -> Add New -> Upload Plugin.
 
-## My customizations are not compatible anymore
+## My customizations is not compatible anymore
 
-If you extended the plugin with custom Triggers, Carriers, Recipients, or anything else, you need to update your code to the latest version.
+If you extended the plugin with custom Triggers, Carriers, Recipients or anything else, you need to update your code to the latest version.
 
-Please refer to the changelog in readme.txt and the developer documentation here on how to use the new internal API.
+Please refer to the changelog in readme.txt and developer documentation here on how to use the new internal API.

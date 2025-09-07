@@ -1,6 +1,6 @@
 ---
+id: slack
 title: Slack
-sidebar_position: 9
 ---
 
 # Slack

@@ -1,6 +1,6 @@
 ---
+id: post
 title: Post
-sidebar_position: 1
 ---
 
 # Post
@@ -8,35 +8,29 @@ sidebar_position: 1
 ## Post published - include private posts
 
 ```php
-add_action(
-    'notification/trigger/registered',
-    function($trigger) {
-        if ($trigger->getSlug() !== 'post/post/published') {
-            return;
-        }
+add_action( 'notification/trigger/registered', function( $trigger ) {
 
-        $trigger->addAction('new_to_private', 10);
-        $trigger->addAction('auto-draft_to_private', 10);
-        $trigger->addAction('draft_to_private', 10);
-        $trigger->addAction('pending_to_private', 10);
-        $trigger->addAction('future_to_private', 10);
-    }
-);
+	if ( $trigger->get_slug() !== 'post/post/published' ) {
+		return;
+	}
+
+	$trigger->add_action( 'new_to_private', 10 );
+	$trigger->add_action( 'auto-draft_to_private', 10 );
+	$trigger->add_action( 'draft_to_private', 10 );
+	$trigger->add_action( 'pending_to_private', 10 );
+	$trigger->add_action( 'future_to_private', 10 );
+
+} );
 ```
 
 ## Post updated - add other post statuses
 
 ```php
-add_filter(
-    'notification/trigger/wordpress/post/updated/statuses',
-    function($statuses, $postType) {
-        if ($postType === 'my-post-type') {
-            $statuses[] = 'on-hold';
-        } 
-        
-        return $statuses;
-    },
-    10,
-    2 
-);
+add_filter( 'notification/trigger/wordpress/post/updated/statuses', function( $statuses, $post_type ) {
+    if ( 'my-post-type' === $post_type ) {
+        $statuses[] = 'on-hold';
+    } 
+    
+    return $statuses;
+}, 10, 2 );
 ```

@@ -1,14 +1,14 @@
 ---
 title: JSON synchronization
+id: json-synchronization
 description: >-
   Synchronize all the Notifications by saving them within the theme or plugin
   files.
-sidebar_position: 2
 ---
 
 # JSON synchronization
 
-This is very similar to how Advanced Custom Fields JSON synchronization works. Whenever you save the notification in wp-admin the JSON file with all the config is saved within the directory you specified. It works the other way around as well - if you don't have the notification in your WordPress database, you can pull it from the file.
+This is very similar how Advanced Custom Fields JSON synchronization works. Whenever you save the  notification in wp-admin the JSON file with all the config is saved within the directory you specified. It works the other way around as well - if you don't have the notification in your WordPress database, you can pull it from the file.
 
 The notification is sent even if it's just in the file and not in the database, so you can import it just for editing purposes.
 
@@ -17,14 +17,14 @@ The notification is sent even if it's just in the file and not in the database, 
 ```php
 use BracketSpace\Notification\Core\Sync;
 
-add_action('notification/init', function () {
+add_action( 'notification/init', function () {
 	Sync::enable();
-}, 5);
+}, 5 );
 ```
 
-You can put this code in your custom plugin or your child theme's functions.php file.
+You can put this code in your custom plugin or in your child theme's functions.php file.
 
-By default, all the notifications will be saved within the `wp-content/themes/$theme/notifications/` directory.
+Bu default, all the notification will be saved within the `wp-content/themes/$theme/notifications/` directory.
 
 ### Custom notifications directory
 
@@ -35,12 +35,12 @@ To put the notifications within the `wp-content/uploads` directory do it like th
 ```php
 use BracketSpace\Notification\Core\Sync;
 
-add_action('notification/init', function () {
-    $uploadsDir = wp_upload_dir();
-    Sync::enable($uploadsDir['basedir']);
-}, 5);
+add_action( 'notification/init', function () {
+    $uploads_dir = wp_upload_dir();
+    Sync::enable( $uploads_dir['basedir'] );
+}, 5 );
 ```
 
-:::note
+:::info
 The Notification plugin supports only one synchronization directory
 :::

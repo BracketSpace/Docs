@@ -1,11 +1,11 @@
 ---
+id: white-label-mode
 title: White label mode
-sidebar_position: 7
 ---
 
 # White label mode
 
-One of the coolest Notification features is white labeling. To put it in this mode you'll need to call just one function:
+One of the coolest Notification features is white labeling. To put it in this mode you’ll need to call just one function:
 
 ```php
 use BracketSpace\Notification\Core\Whitelabel;
@@ -15,23 +15,23 @@ add_action( 'notification/init', function() {
 } );
 ```
 
-What it does is just remove all the [default triggers](../triggers/default-triggers) and [the upselling](../../user-guide/advanced/disable-upselling). The fun part starts with the parameters you can use. See below:
+What it does is just remove all the [default triggers](../triggers/default-triggers.md) and [the upselling](../../user-guide/advanced/disable-upselling.md). The fun part starts with the parameters you can use. See below:
 
 ```php
 Whitelabel::enable( [
 	// admin page hook under which you want the Notifications to be displayed.
-	'page_hook' => 'edit.php?post_type=page',
+	'page_hook'       => 'edit.php?post_type=page',
 	// if display extensions.
-	'extensions' => false,
+	'extensions'      => false,
 	// if display settings.
-	'settings' => false,
-	// control settings access, provided user IDs will have access.
+	'settings'        => false,
+	// control settings access, provided user IDs will have an access.
 	// this works only if settings are enabled.
-	'settings_access' => [123, 456],
+	'settings_access' => array( 123, 456 ),
 ] );
 ```
 
-:::note
+:::info
 If the Notifications page is moved to a submenu of another page, the settings and extensions are added as a separate submenu.
 :::
 

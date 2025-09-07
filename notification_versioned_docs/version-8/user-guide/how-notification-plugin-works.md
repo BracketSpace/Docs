@@ -1,7 +1,6 @@
 ---
 id: how-notification-plugin-works
-title: How Notification plugin works
-sidebar_label: How Notification plugin works
+title: How Notification Plugin Works
 sidebar_position: 2
 ---
 
@@ -11,7 +10,7 @@ The [Notification plugin](https://wordpress.org/plugins/notification/) was creat
 
 The plugin is built on top of WordPress' actions system which means it can listen to any action defined in WordPress. And it has a thousand of them. Also, every properly created plugin should use them as well.
 
-:::note
+:::info
 Examples:
 
 * Send an email to WordPress administrator when user logs in
@@ -32,7 +31,7 @@ The Trigger is a WordPress action(s) which are observed by the plugin. Examples:
 
 It allows the plugin to listen to what is happening in the background.
 
-:::note
+:::info
 The Notification is highly extensible. Developers can register own Triggers based on any WordPress actions.
 :::
 

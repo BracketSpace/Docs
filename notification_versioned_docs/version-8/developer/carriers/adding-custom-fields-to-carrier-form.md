@@ -1,37 +1,30 @@
 ---
+id: adding-custom-fields-to-carrier-form
 title: Adding custom fields to Carrier form
-sidebar_position: 2
 ---
 
 # Adding custom fields to Carrier form
 
-To add new fields to the Carrier form you need to hook into the `notification/carrier/registered` action.
+To add new fields to Carrier form you need to hook into the `notification/carrier/registered` action.
 
 ```php
-use BracketSpace\Notification\Repository\Carrier\Email;
-use BracketSpace\Notification\Repository\Field\InputField;
+use BracketSpace\Notification\Defaults\Field\InputField;
 
-add_action(
-    'notification/carrier/registered',
-    function($carrier)
-    {
-        if (! $carrier instanceof Email::class) {
-            return;
-        }
+add_action( 'notification/carrier/registered', function( $carrier ) {
 
-        $carrier->addFormField(
-            new InputField(
-                [
-                    'label' => __('Example Field', 'textdomain'),
-                    'name' => 'example',
-                    'resolvable' => true,
-                ]
-            )
-        );
-    }
-);
+	if ( 'email' === $carrier->get_slug() ) {
+		return;
+	}
+
+	$carrier->add_form_field( new InputField( array(
+		'label'      => __( 'Example Field' ),
+		'name'       => 'example',
+		'resolvable' => true,
+	) ) );
+
+} );
 ```
 
-:::note
+:::info
 All the field data will be automatically stored and available in `$carrier->data` property in `send()` method.
 :::

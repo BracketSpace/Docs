@@ -1,7 +1,8 @@
 ---
 title: Planned Extensions
-sidebar_position: 2
+id: planned
 description: A list of all extensions to be developed.
+sidebar_position: 2
 ---
 
 # Planned extensions
@@ -68,12 +69,12 @@ Integration with a great and easy-to-use CRM system to manage your company's sal
 
 ### Campaigns
 
-To create, track, analyze, and improve your notifications by creating simple notification campaigns.
+To create, track, analyze, and improve your notifications by creating simple notification campaigns.&#x20;
 
 ### WhatsApp
 
 Integration with the largest messenger to grow your site with new conversion channels.
 
-### Popups & Banners
+## Popups & Banners
 
 To engage users in real-time with banner notifications, popups, and modals on your WordPress site.

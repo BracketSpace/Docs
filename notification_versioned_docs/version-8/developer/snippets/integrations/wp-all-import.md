@@ -1,7 +1,6 @@
 ---
 id: wp-all-import
 title: WP All Import
-sidebar_label: WP All Import
 sidebar_position: 1
 ---
 
@@ -35,25 +34,25 @@ add_action( 'notification/trigger/registered', function( $trigger ) {
 
 // Proxy action.
 add_action( 'pmxi_saved_post', function( $post_id, $node, $is_update ) {
-    if ( ! $is_update ) {
-        do_action( 'notification_pmxi_added_post', $post_id, get_post( $post_id ), false );
-    } else {
-        do_action( 'notification_pmxi_updated_post', $post_id, get_post( $post_id ), get_post( $post_id ) );
-    }
+	if ( ! $is_update ) {
+		do_action( 'notification_pmxi_added_post', $post_id, get_post( $post_id ), false );
+	} else {
+		do_action( 'notification_pmxi_updated_post', $post_id, get_post( $post_id ), get_post( $post_id ) );
+	}
 }, 10, 3 );
 
 // Disable postponing.
 add_filter( 'notification/integration/gutenberg', function( $initial ) {
-    if ( defined( 'WP_IMPORTING' ) && WP_IMPORTING ) {
-        return false;
-    }
-    return $initial;
+	if ( defined( 'WP_IMPORTING' ) && WP_IMPORTING ) {
+		return false;
+	}
+	return $initial;
 } );
 
 add_filter( 'notification/integration/custom_fields/should_postpone_save_post', function( $initial ) {
-    if ( defined( 'WP_IMPORTING' ) && WP_IMPORTING ) {
-        return false;
-    }
-    return $initial;
+	if ( defined( 'WP_IMPORTING' ) && WP_IMPORTING ) {
+		return false;
+	}
+	return $initial;
 } );
 ```

@@ -1,55 +1,53 @@
 ---
+id: background-processing-filter
 title: Background Processing filter
-sidebar_position: 4
 ---
 
 # Background Processing filter
 
-Regardless of the [setting in Dashboard](../../../user-guide/advanced/background-processing) you can enable or disable background processing for a particular Trigger with a simple filter. You can reference [default Triggers](../../triggers/default-triggers) here.
+Regardless of the [setting in Dashboard](../../../user-guide/advanced/background-processing.md) you can enable or disable background processing for a particular Trigger with a simple filter. You can reference [default Triggers](../../triggers/default-triggers.md) here.
 
-## Disable Triggers
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
-```php
-add_filter(
-    'notification/trigger/process_in_background',
-    function($enabled, $trigger) {
-        $disabledSlugs = [
-            'user/registered',
-            'user/login',
-        ];
-
-        if (in_array($trigger->getSlug(), $disabledSlugs, true)) {
-            return false;
-        }
-
-        return $enabled;
-    },
-    10,
-    2
-);
-```
-
-## Enable Triggers
+<Tabs>
+<TabItem value="disable" label="Disable Triggers">
 
 ```php
-add_filter(
-    'notification/trigger/process_in_background',
-    function($enabled, $trigger) {
-        $enabledSlugs = [
-            'user/registered',
-            'user/login',
-        ];
+add_filter( 'notification/trigger/process_in_background', function( $enabled, $trigger ) {
+	$disabled_trigger_slugs = [
+		'user/registered',
+		'user/login',
+	];
 
-        if (in_array($trigger->getSlug(), $enabledSlugs, true)) {
-            return true;
-        }
+	if ( in_array( $trigger->get_slug(), $disabled_trigger_slugs, true ) ) {
+		return false;
+	}
 
-        return $enabled;
-    },
-    10,
-    2
-);
+	return $enabled;
+}, 10, 2 );
 ```
+
+</TabItem>
+<TabItem value="enable" label="Enable Triggers">
+
+```php
+add_filter( 'notification/trigger/process_in_background', function( $enabled, $trigger ) {
+	$enabled_trigger_slugs = [
+		'user/registered',
+		'user/login',
+	];
+
+	if ( in_array( $trigger->get_slug(), $enabled_trigger_slugs, true ) ) {
+		return true;
+	}
+
+	return $enabled;
+}, 10, 2 );
+```
+
+</TabItem>
+</Tabs>
 
 :::warning
 This filter was added in version 7.2.3.

@@ -1,6 +1,6 @@
 ---
+id: 3rd-party-extensions
 title: 3rd Party Extensions
-sidebar_position: 3
 ---
 
 # 3rd Party Extensions
@@ -11,8 +11,10 @@ If you have an extension you wrote and you'd like to share it. Please [contact u
 
 Yoast SEO merge tags for post triggers and scheduled post triggers. Wrote by Jean-Paul Horn for [iCulture.nl](https://www.iculture.nl/).
 
-:::warning
-This extension is not compatible with Notification v9 and later.
-:::
+**Download:** [Notification : Yoast SEO 1.0.2](../assets/notification-yoastseo%20(2).zip)
 
-[Download Notification : Yoast SEO 1.0.2](../assets/notification-yoastseo%20(2).zip)
+### Notification : Prevent Duplicates
+
+This plugin creates a buffer that doesn't allow two of the same notifications to be sent within 60 seconds. This is the last resort to fix the duplicated notifications.
+
+[Download: Notification : Prevent Duplicates 1.0.0](../assets/notification-prevent-duplicates.zip)

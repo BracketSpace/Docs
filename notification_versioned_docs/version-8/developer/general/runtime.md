@@ -1,11 +1,11 @@
 ---
+id: runtime
 title: Runtime
-sidebar_position: 2
 ---
 
 # Runtime
 
-The plugin initializes itself on action `init` with priority `5` (see the [loading chain](./plugin-loading-chain)) so after this hook, you can access the whole Runtime object with a simple wrapper class. Within the Runtime, we invoke certain singletons, accessible by their class names.
+The plugin initializes itself on action `init` with priority `5` (see the [loading chain](plugin-loading-chain.md)) so after this hook you can access the whole Runtime object with a simple wrapper class.
 
 To get the Runtime object:
 
@@ -13,30 +13,25 @@ To get the Runtime object:
 $runtime = \Notification::runtime();
 ```
 
-To get the Settings component:
+To get the Runtime component:
 
 ```php
-// via the component
-use BracketSpace\Notification\Core\Settings;
-
-$settings = \Notification::component(Settings::class);
-
-// or via the alias
-$settings = \Notification::settings()
+$cache = \Notification::component( 'core_whitelabel' );
 ```
 
-To get the plugin version:
+To get plugin version:
 
 ```php
 $version = \Notification::version();
 ```
 
-To get the plugin filesystem:
+To get plugin filesystem:
 
 ```php
 $fs= \Notification::fs();
 ```
 
-:::note
+:::info
 Please note the `Notification` class lives in the global namespace.
 :::
+

@@ -1,7 +1,7 @@
 ---
 title: Conditionals
+id: conditionals
 description: Documentation for version 2.1 or later
-sidebar_position: 5
 ---
 
 # Conditionals
@@ -13,6 +13,8 @@ sidebar_position: 5
 ## Date comparisons
 
 The `merge tag` and `value` fields can be any ISO-standardized date-time format
+
+<figure><img src="../assets/image (9).png" alt="" /><figcaption><p>Example of valid date times</p></figcaption></figure>
 
 ### Is before/after hour
 

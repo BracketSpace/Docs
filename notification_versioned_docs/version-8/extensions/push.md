@@ -1,6 +1,6 @@
 ---
 title: Push
-sidebar_position: 7
+id: push
 description: Version 1.0.0 or later
 ---
 
@@ -16,11 +16,11 @@ After installing and activating the plugin you have to generate VAPID Keys. They
 
 Click the link in admin notification or head over to Settings -> Carriers -> Push.
 
-![Generate VAPID Keys](../assets/push-generate-vapid.png)
+![](../assets/image(1).png)
 
 Next, press Generate button and Save changes.
 
-![Save Changes](../assets/push-save-changes.png)
+![](../assets/image(2).png)
 
 ### Plugin configuration
 
@@ -56,16 +56,16 @@ The "Subscribe" button is available to be used in both Manual and Automatic mode
 
 There is no way to determine who is the subscriber if a subscription is not connected with the user. This situation can happen if the `Subscribing by logged-in Users` option is not checked. In this case, the site administrator cannot remove every user subscription on their demand. Fortunately, users can revoke permission by themselves:
 
-* Mozilla Firefox instruction: [https://support.mozilla.org/en-US/kb/push-notifications-firefox#w_how-do-i-revoke-web-push-permissions-for-a-specific-site](https://support.mozilla.org/en-US/kb/push-notifications-firefox#w_how-do-i-revoke-web-push-permissions-for-a-specific-site)
+* Mozilla Firefox instruction: [https://support.mozilla.org/en-US/kb/push-notifications-firefox#w\_how-do-i-revoke-web-push-permissions-for-a-specific-site](https://support.mozilla.org/en-US/kb/push-notifications-firefox#w_how-do-i-revoke-web-push-permissions-for-a-specific-site)
 * Google Chrome instruction: [https://support.google.com/chrome/answer/3220216](https://support.google.com/chrome/answer/3220216)
 
 You can see user subscriptions on the user list in the admin dashboard.
 
-![User Subscriptions](../assets/push-user-subscriptions.png)
+![](../assets/image(3).png)
 
 In the user edit view, you can see details about its subscriptions, or remove any of them separately.
 
-![User Edit View](../assets/push-user-edit.png)
+![](../assets/image(4).png)
 
 ### Notification Recipients
 
