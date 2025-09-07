@@ -93,12 +93,10 @@ Follow Conventional Commits format:
 - [ ] Common docs
 
 ### Phase 4: SEO & Features
-- [ ] Ensure URL routing is the same as existing SEO structure
-- [ ] Set up redirects from old URLs to preserve SEO
-- [ ] Configure search across main site and all subsites
-- [ ] Set up SEO optimization with existing meta tags
-
-### Phase 5: Deployment & Testing
-- [ ] Test all plugin documentation migrations
-- [ ] Set up analytics and monitoring
-- [ ] Perform final testing and launch
+- [ ] Fix syntax highlighting
+- [ ] Fix breadcrumbs
+- [ ] Install [sitemap](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-sitemap)
+- [ ] Ensure URL routing is the same as existing SEO structure and set up redirects from old URLs to preserve SEO [plugin](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-client-redirects)
+- [ ] Set up SEO optimization with existing meta tags (with contextual image filenames)
+- [ ] Set up [analytics](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-google-gtag)
+- [ ] Optimize images [plugin](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-ideal-image)

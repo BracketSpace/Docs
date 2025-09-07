@@ -1,15 +1,32 @@
 ---
+id: intro
+title: Notification – Custom Notifications and Alerts for WordPress
+sidebar_label: Introduction
+sidebar_position: 1
+description: The official Notification plugin documentation
 slug: /
-sidebar_label: Notification
-title: Notification Plugin
 ---
 
-# Notification Plugin
+# Notification – Custom Notifications and Alerts for WordPress
 
-Welcome to the Notification plugin documentation.
+![Notification plugin logo](./assets/notification-hires.png)
 
-This plugin allows you to send notifications to various channels when specific events occur on your WordPress site.
+:::tip
+[Download the plugin from WordPress.org](https://wordpress.org/plugins/notification/)
+:::
 
 ## Getting Started
 
-Get started by installing and configuring the Notification plugin on your WordPress site.
+[How Notification plugin works](./user-guide/how-notification-plugin-works)
+
+## Developer docs
+
+[Extension possibilities](./developer/general/extension-possibilities)
+
+[Bundling Notification plugin](./developer/general/bundling)
+
+[White label mode](./developer/general/white-label-mode)
+
+## Extensions
+
+[Installation](./extensions/installation)
