@@ -635,3 +635,21 @@ html {
 .sidebar-section-header .menu__caret {
   display: none !important;
 }
+
+/* Documentation Image Styling */
+.markdown img {
+  display: block;
+  margin: var(--bs-space-6) auto;
+  max-width: 80%;
+  height: auto;
+  border-radius: var(--bs-radius-md);
+  box-shadow: var(--bs-shadow-md);
+}
+
+/* Mobile responsive images */
+@media (max-width: 768px) {
+  .markdown img {
+    max-width: 100%;
+    margin: var(--bs-space-4) auto;
+  }
+}
