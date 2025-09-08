@@ -66,7 +66,28 @@ Follow Conventional Commits format:
 - `npm run lint` - Run linting
 
 ### Content Guidelines
-- Images, should live close to the markdown files
+
+#### Link Structure Rules
+- **Internal Navigation**: Use relative links for all internal documentation references
+- **Same Directory**: Link directly to `.md` files: `[Link Text](filename.md)`
+- **Subdirectories**: Use relative paths: `[Link Text](subdirectory/filename.md)`
+- **Parent Directories**: Navigate up with `../`: `[Link Text](../parent/filename.md)`
+- **Cross-Section Links**: Maintain directory structure: `[Link Text](../../other-section/filename.md)`
+- **Avoid Absolute URLs**: Never use full URLs for internal site navigation
+- **Link Verification**: Always verify target files exist before creating links
+
+#### Asset Management Rules
+- **Image Storage**: Store all images in `assets/` folder at plugin documentation root level
+- **File Naming**: Use descriptive, SEO-friendly filenames (e.g., `email-template-settings-panel.png`)
+- **Avoid Generic Names**: Never use generic names like `image-1.png`, `obraz-9.png`, `screenshot.png`
+- **Relative References**: Reference images with relative paths from markdown files
+- **Organization**: Group related assets logically within the assets directory
+
+#### Documentation Structure
+- **Directory Hierarchy**: Keep related content in logical directory structures
+- **Index Pages**: Use `index.md` files for section landing pages
+- **Consistent Naming**: Follow kebab-case for file and directory names
+- **Version Consistency**: Maintain identical link structures across versioned documentation
 
 ## Deployment
 - Hosted on Cloudflare Pages
