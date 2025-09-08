@@ -60,9 +60,7 @@ The free version includes everything you need for basic cron management:
 - **Priority Support** - Direct access to our expert team
 
 :::success Learn About PRO Features
-**[See all PRO features and pricing →](./pro)**
-
-Starting at $49/year with 14-day money-back guarantee
+**[See all PRO features and pricing →](/advanced-cron-manager/pro/intro)**
 :::
 
 ## What Users Say
@@ -92,15 +90,8 @@ Advanced Cron Manager is perfect for:
 3. Install and activate the plugin
 4. Navigate to **Tools → Cron Manager**
 
-For PRO installation instructions, see the **[Advanced Cron Manager PRO](./pro)** page.
-
-## Technical Requirements
-
-- **WordPress:** 3.6 or higher
-- **PHP:** 5.3 or higher  
-- **JavaScript:** Must be enabled for full functionality
-- **Tested:** Up to WordPress 6.8.2
+For PRO installation instructions, see the **[Advanced Cron Manager PRO](/advanced-cron-manager/pro/intro)** page.
 
 ---
 
-Ready to take control of your WordPress Cron? **[Download the free version](https://wordpress.org/plugins/advanced-cron-manager/)** or **[learn about PRO features](./pro)** for enterprise-grade capabilities.
+Ready to take control of your WordPress Cron? **[Download the free version](https://wordpress.org/plugins/advanced-cron-manager/)** or **[learn about PRO features](/advanced-cron-manager/pro/intro)** for enterprise-grade capabilities.
