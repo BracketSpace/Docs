@@ -15,11 +15,11 @@ For each template, you can set global settings that will be used throughout this
 
 Go to `Settings` sidebar and to the `Email Template` tab
 
-![](../../../assets/email-template-settings-tab-access.png)
+![Email template settings tab access in WordPress sidebar](../../../assets/email-template-settings-tab-access.png)
 
 Right at the top you'll find your template name, followed by template status and width settings
 
-![](../../../assets/email-template-document-settings-panel.png)
+![Email template document settings panel showing width and status options](../../../assets/email-template-document-settings-panel.png)
 
 :::note
 Setting the Width will determine the template main container width (width of all blocks inside it). The background will still be full-width.

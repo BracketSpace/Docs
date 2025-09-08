@@ -14,23 +14,23 @@ To create a new Pretty Email template:
 
 1. Go to `Appearance` -> `Pretty Email`
 
-   ![](../../assets/wordpress-appearance-pretty-email-menu.png)
+   ![WordPress Appearance menu showing Pretty Email plugin access](../../assets/wordpress-appearance-pretty-email-menu.png)
 
 2. Click `Add New Template`
 
-   ![](../../assets/pretty-email-add-new-template-button.png)
+   ![Add New Template button in Pretty Email interface](../../assets/pretty-email-add-new-template-button.png)
 
 3. You can choose from one of available preset templates to start with
 
-   ![](../../assets/email-template-preset-patterns-gallery.png)
+   ![Email template preset patterns gallery with professional designs](../../assets/email-template-preset-patterns-gallery.png)
 
 4. Or build the new one from scratch
 
-   ![](../../assets/email-editor-section-wrapper-block-selection.png)
+   ![Email editor section wrapper block selection for custom templates](../../assets/email-editor-section-wrapper-block-selection.png)
 
 5. You can change your template name in `Settings` sidebar
 
-![](../../assets/email-template-rename-options-menu.png)
+![Email template rename options menu in WordPress settings sidebar](../../assets/email-template-rename-options-menu.png)
 
 :::note
 The template name is only visible to website administrators, it's not used anywhere in the sent email.
@@ -40,7 +40,7 @@ The template name is only visible to website administrators, it's not used anywh
 
 You can send a preview of your template to your chosen email address, to see how it looks in your real email client (see `Preview` box at the bottom of the `Settings` sidebar)
 
-![](../../assets/email-template-preview-send-interface.png)
+![Email template preview and send interface for testing designs](../../assets/email-template-preview-send-interface.png)
 
 :::note
 See [Global Template Settings](global-template-settings/index.md) and [Composing Templates with Blocks](composing-templates-with-blocks.md) to learn how to put together beautiful templates.

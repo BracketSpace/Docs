@@ -13,11 +13,11 @@ keywords: ["Notification plugin integration", "dynamic email templates", "WordPr
 
 To use Pretty Email templates in the [Notification](https://wordpress.org/plugins/notification/) plugin, go to your notifications list and enter a notification edit:
 
-![](../../assets/notification-plugin-edit-interface.png)
+![Notification plugin edit interface showing email carrier configuration](../../assets/notification-plugin-edit-interface.png)
 
 At the bottom of the Carrier box, you can choose the template that you want to use for the notification:
 
-![](../../assets/notification-template-selection-dropdown.png)
+![Notification template selection dropdown for Pretty Email integration](../../assets/notification-template-selection-dropdown.png)
 
 You can choose one of 3 options:
 
