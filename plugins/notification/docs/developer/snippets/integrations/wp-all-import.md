@@ -1,9 +1,14 @@
 ---
-title: WP All Import
+title: "WP All Import WordPress Notification Integration"
+sidebar_label: "WP All Import"
 sidebar_position: 1
+description: "Integrate WP All Import with WordPress notifications. Handle post import triggers, avoid duplicate notifications and optimize import workflows."
+keywords: ["WP All Import integration", "WordPress import notifications", "post import triggers", "import automation", "bulk import notifications", "CSV import notifications", "XML import triggers", "import workflow"]
 ---
 
-# WP All Import
+# WP All Import WordPress Notification Integration
+
+**WP All Import WordPress notification integration** requires special handling to avoid duplicate triggers and ensure proper notification delivery during bulk import operations. This integration guide provides code examples for handling post imports with the Notification plugin.
 
 ## Importing posts
 

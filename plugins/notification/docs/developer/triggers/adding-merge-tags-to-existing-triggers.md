@@ -1,11 +1,14 @@
 ---
-title: Adding Merge Tags to existing Triggers
+title: "How to Add Custom Merge Tags to WordPress Notification Triggers"
+sidebar_label: "Adding merge tags"
 sidebar_position: 4
+description: "Learn how to add custom merge tags to existing WordPress notification triggers. Extend default triggers with custom meta, global tags and dynamic content."
+keywords: ["WordPress merge tags", "custom merge tags", "notification triggers", "trigger extension", "post meta merge tags", "global merge tags", "dynamic content", "trigger customization"]
 ---
 
-# Adding Merge Tags to existing Triggers
+# How to Add Custom Merge Tags to WordPress Notification Triggers
 
-Sometimes it's needed to add your own Merge Tag to an already defined Trigger. In example you can add a custom meta Merge Tag to default `Post Published` Trigger.
+**WordPress notification merge tags** enable developers to add dynamic, personalized content to existing triggers. This guide shows you how to extend default triggers like Post Published with custom meta fields, create global merge tags, and implement dynamic content across all notification types.
 
 To do this simply hook into the action and add your Merge Tag:
 

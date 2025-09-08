@@ -1,9 +1,14 @@
 ---
-title: Background Processing filter
+title: "WordPress Notification Background Processing Control"
+sidebar_label: "Background processing"
 sidebar_position: 4
+description: "Control WordPress notification background processing with filters. Enable or disable background processing for specific triggers with conditional logic."
+keywords: ["WordPress background processing", "notification performance", "trigger processing", "async notifications", "notification filters", "performance optimization", "background tasks", "notification control"]
 ---
 
-# Background Processing filter
+# WordPress Notification Background Processing Control
+
+**WordPress notification background processing** can be controlled on a per-trigger basis using filters, allowing developers to optimize performance by enabling or disabling asynchronous processing for specific notification triggers based on requirements and server capabilities.
 
 Regardless of the [setting in Dashboard](../../../../user-guide/advanced/background-processing) you can enable or disable background processing for a particular Trigger with a simple filter. You can reference [default Triggers](../../triggers/default-triggers.md) here.
 

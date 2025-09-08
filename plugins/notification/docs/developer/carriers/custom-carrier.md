@@ -1,11 +1,14 @@
 ---
-title: Custom Carrier
+title: "How to Create Custom WordPress Notification Carriers"
+sidebar_label: "Custom Carrier"
 sidebar_position: 1
+description: "Learn how to create custom WordPress notification carriers for APIs and delivery services. Complete guide to carrier classes, form fields and integration."
+keywords: ["WordPress notification carriers", "custom carrier development", "notification API integration", "PHP carrier class", "webhook carriers", "delivery services", "notification plugin", "carrier registration"]
 ---
 
-# Custom Carrier
+# How to Create Custom WordPress Notification Carriers
 
-Carrier is an element that connects the WordPress action with a service. Default Carriers are Email and Webhook.
+**WordPress notification carriers** are essential components that connect WordPress actions with external services and delivery methods. While Email and Webhook carriers are included by default, developers can create custom carriers to integrate with any API or delivery service.
 
 If you want to connect with API or other delivery services, you should create a custom Carrier.
 

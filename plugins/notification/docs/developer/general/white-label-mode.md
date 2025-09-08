@@ -1,11 +1,14 @@
 ---
-title: White label mode
+title: "WordPress Notification Plugin White Label Mode Setup"
+sidebar_label: "White label mode"
 sidebar_position: 7
+description: "Configure WordPress Notification plugin white label mode for custom branding. Remove default triggers, customize admin interface, and control user access."
+keywords: ["WordPress white label", "plugin branding", "custom admin interface", "notification customization", "plugin white labeling", "developer tools", "admin customization", "plugin configuration"]
 ---
 
-# White label mode
+# WordPress Notification Plugin White Label Mode Setup
 
-One of the coolest Notification features is white labeling. To put it in this mode you'll need to call just one function:
+**WordPress Notification plugin white label mode** is a powerful branding feature that allows developers to customize the plugin interface, remove default elements, and create a tailored notification experience for clients. This mode provides complete control over plugin presentation and functionality.
 
 ```php
 use BracketSpace\Notification\Core\Whitelabel;

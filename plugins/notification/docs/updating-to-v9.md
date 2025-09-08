@@ -1,31 +1,36 @@
 ---
 id: updating-to-v9
-title: Updating to v9
-sidebar_label: Updating to v9
+title: "How to Update WordPress Notification Plugin to v9 - Migration Guide"
+sidebar_label: "Updating to v9"
 sidebar_position: 2
+description: "Complete guide to upgrading Notification plugin to v9. Learn about compatibility changes, database migration, and API updates for WordPress notifications."
+keywords: ["notification plugin update", "WordPress plugin migration", "upgrade notification v9", "database migration", "API compatibility", "webhook migration", "WordPress notifications"]
+slug: /updating-to-v9
 ---
 
-# Updating to v9
+# How to Update WordPress Notification Plugin to v9
+
+**Updating Notification plugin to version 9 is a major upgrade** that includes database migration, API improvements, and important compatibility changes. This comprehensive migration guide helps WordPress developers and site owners safely upgrade their notification system while maintaining functionality.
 
 :::danger
 Please note, that Notification v9 is not compatible with v8 add-ons and v9 add-ons are not compatible with Notification v8. If you're upgrading, please make sure to upgrade everything at once. 
 :::
 
-## Most noticeable changes
+## Key Migration Changes in Notification v9
 
 The most noticeable changes to the new version of the Notification plugin are listed below.
 
-### Custom database table
+### Database Migration to Custom Tables
 
 Notifications data were moved from the `wp_posts` table to the custom table in the database.
 
 The code API within didn't change, so if you've been adjusting notifications via official methods, functions, or hooks, you're covered and don't have to change anything. 
 
-### Coding standards
+### Updated PHP Coding Standards
 
 We dropped WP Coding Standards in favor of modern PSR-12. Multiple code APIs changed, mostly from snake_case to camelCase, but for most of the functions and methods we offer a [casegnostic](https://github.com/micropackage/casegnostic) approach, they should be backward compatible.
 
-### Webhooks carriers
+### Webhook Integration Changes
 
 Since version 9, **Webhook and Webook JSON carriers are available as a** [**paid add-on**](https://bracketspace.com/downloads/notification-webhooks/). This add-on now offers also an Incoming webhooks feature. We did this to better support this feature as a part of our business. Thank you for your understanding.
 

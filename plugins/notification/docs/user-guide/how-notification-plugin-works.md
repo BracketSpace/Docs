@@ -1,13 +1,17 @@
 ---
 id: how-notification-plugin-works
-title: How Notification plugin works
+title: "How WordPress Notification Plugin Works - Triggers & Carriers Guide"
 sidebar_label: How Notification plugin works
 sidebar_position: 2
+description: "Learn how WordPress Notification plugin works with triggers, carriers, and merge tags. Understand the architecture behind automated WordPress notifications and email alerts."
+keywords: ["wordpress notification plugin", "how notifications work", "wordpress triggers", "notification carriers", "merge tags", "automated wordpress notifications", "wordpress event system", "notification architecture"]
 ---
 
-# How Notification plugin works
+# How WordPress Notification Plugin Works
 
-The [Notification plugin](https://wordpress.org/plugins/notification/) was created to connect various WordPress actions with another services. Its initial version only allowed to send Emails, but in current state you can connect with any 3rd party software.
+**WordPress Notification plugin is an automation system** that connects WordPress events with external services through triggers, carriers, and merge tags. Originally designed for email notifications, it now supports webhooks, Slack integration, SMS, and countless third-party service connections.
+
+The plugin leverages WordPress's built-in action system to monitor site activity and automatically send notifications when specific events occur. This makes it possible to create sophisticated notification workflows without custom coding.
 
 The plugin is built on top of WordPress' actions system which means it can listen to any action defined in WordPress. And it has a thousand of them. Also, every properly created plugin should use them as well.
 
@@ -18,11 +22,11 @@ Examples:
 * Send a webhook to your accounting software when someone purchases a product
 :::
 
-## Plugin components
+## WordPress Notification System Components
 
-The Notification plugin is created with a few components which works together. See below how they work and how they are bound together.
+The Notification plugin architecture consists of three core components that work together to create automated WordPress notifications. Understanding these components helps you build effective notification workflows.
 
-### Trigger
+### WordPress Event Triggers
 
 The Trigger is a WordPress action(s) which are observed by the plugin. Examples:
 
@@ -36,9 +40,9 @@ It allows the plugin to listen to what is happening in the background.
 The Notification is highly extensible. Developers can register own Triggers based on any WordPress actions.
 :::
 
-### Carrier
+### Notification Carriers
 
-The Carrier delivers the Notification. Example Carriers:
+The Carrier is the delivery method that sends your WordPress notifications. Available notification carriers include:
 
 * Email
 * Webhook
@@ -47,9 +51,9 @@ The Carrier delivers the Notification. Example Carriers:
 
 All the Carriers works with all the Triggers out of the box, even the custom ones.
 
-### Merge Tag
+### Dynamic Merge Tags
 
-This is a tiny bit of a dynamic information. You can think of it as a placeholder. Example Merge Tags:
+Merge tags are dynamic placeholders that insert real-time data into your WordPress notifications. Common merge tag examples:
 
 * `{user_email}`
 * `{plugin_name}`
@@ -57,11 +61,11 @@ This is a tiny bit of a dynamic information. You can think of it as a placeholde
 
 You can compose the Notification out of them when you don't really know what's going to be rendered. For example when you create the "User registered" Notification and use the `{user_email}` Merge Tag it's going to be rendered to `your@email.com` when you register and to `bracketspace@email.com` when I register.
 
-## How does it work together
+## How WordPress Notification Components Work Together
 
-Trigger, Carriers and Merge Tags are all ingredients of a yummy Notification pie you can bake.
+WordPress notification triggers, carriers, and merge tags combine to create powerful automated communication workflows.
 
-A Notification is a single "action and reaction" chain. When this happens, do this. If this Trigger is triggered, execute these Carriers. If User registers, send an Email and Webhook.
+A WordPress notification follows a simple "when this, then that" logic: when a specific trigger event occurs, the system executes the configured carriers using dynamic merge tag data. For example, when a user registers (trigger), send a welcome email and webhook notification (carriers) with the user's details (merge tags).
 
 Each Trigger has a set of it's Merge Tags. Having the `{plugin_name}` Tag in context of a User registration would be rather silly 😉
 

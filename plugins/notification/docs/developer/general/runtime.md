@@ -1,11 +1,14 @@
 ---
-title: Runtime
+title: "WordPress Notification Plugin Runtime API Reference"
+sidebar_label: "Runtime"
 sidebar_position: 2
+description: "Learn WordPress Notification plugin runtime architecture and API. Access plugin components, settings, and services through PHP runtime methods and singleton patterns."
+keywords: ["WordPress plugin runtime", "notification plugin API", "PHP singleton pattern", "plugin architecture", "WordPress init hook", "runtime components", "plugin development", "API reference"]
 ---
 
-# Runtime
+# WordPress Notification Plugin Runtime API Reference
 
-The plugin initializes itself on action `init` with priority `5` (see the [loading chain](plugin-loading-chain.md)) so after this hook, you can access the whole Runtime object with a simple wrapper class. Within the Runtime, we invoke certain singletons, accessible by their class names.
+**WordPress Notification plugin runtime system** is the core architecture that manages plugin initialization, component access, and service management. The plugin initializes on WordPress `init` hook with priority 5, providing developers with comprehensive runtime API access for building custom extensions and integrations.
 
 To get the Runtime object:
 

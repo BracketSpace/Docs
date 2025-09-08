@@ -1,10 +1,14 @@
 ---
-title: Programmatic Notification with manual Trigger
+title: "Create Manual WordPress Notification Triggers"
+sidebar_label: "Manual triggers"
 sidebar_position: 3
-description: Send the notification from the code, nothing needs to be configured in the Dashboard.
+description: "Learn how to create manual WordPress notification triggers with programmatic notifications. Send notifications from code without dashboard configuration."
+keywords: ["WordPress manual triggers", "programmatic notifications", "custom notification triggers", "notification automation", "code-based notifications", "manual notification", "WordPress automation", "notification API"]
 ---
 
-# Programmatic Notification with manual Trigger
+# Create Manual WordPress Notification Triggers
+
+**WordPress manual notification triggers** enable developers to send notifications programmatically from code without requiring dashboard configuration. This approach provides complete control over when and how notifications are triggered, perfect for custom automation and integration scenarios.
 
 To make it work you'll need:
 

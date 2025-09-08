@@ -1,11 +1,14 @@
 ---
-title: Allow other roles to edit Notifications
+title: "Allow WordPress User Roles to Edit Notifications"
+sidebar_label: "User roles permissions"
 sidebar_position: 2
+description: "Learn how to allow different WordPress user roles to edit notifications. Configure capabilities for editors and other roles to manage notifications."
+keywords: ["WordPress user roles", "notification permissions", "user capabilities", "editor role", "WordPress permissions", "post type capabilities", "notification access", "role management"]
 ---
 
-# Allow other roles to edit Notifications
+# Allow WordPress User Roles to Edit Notifications
 
-You can overwrite the Notification post type capabilities. [See the capabilities for specific roles](https://wordpress.org/support/article/roles-and-capabilities/).
+**WordPress notification user roles** can be configured to allow editors and other user roles to manage notifications beyond administrators. This code example shows how to modify post type capabilities to grant notification management permissions to different user roles.
 
 In the example below, you are allowing everyone with an editor role or greater to manage the notifications.
 

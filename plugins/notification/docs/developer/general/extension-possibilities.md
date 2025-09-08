@@ -1,11 +1,14 @@
 ---
-title: Extension possibilities
+title: "WordPress Notification Plugin Extension Development API"
+sidebar_label: "Extension possibilities"
 sidebar_position: 3
+description: "Learn WordPress plugin extension development with Notification API. Create custom triggers, carriers, merge tags and recipients with powerful developer tools."
+keywords: ["WordPress plugin extension", "notification API development", "PHP plugin development", "WordPress hooks", "custom triggers", "notification carriers", "merge tags", "developer API"]
 ---
 
-# Extension possibilities
+# WordPress Notification Plugin Extension Development API
 
-The Notification plugin has a great, powerful developer API which allows you to extend it nearly limitless.
+**WordPress Notification plugin extension development** is a powerful system that allows developers to create unlimited customizations through a comprehensive PHP API. The plugin provides modular components for building custom triggers, carriers, merge tags, and recipients to extend notification functionality.
 
 Take a look at [plugin's repository at Github](https://github.com/BracketSpace/Notification/tree/master) to search for actions and filters you can use, but also to see how the default things are registered.
 

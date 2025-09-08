@@ -1,11 +1,14 @@
 ---
-title: Custom Trigger
+title: "How to Create Custom WordPress Notification Triggers"
+sidebar_label: "Custom Trigger"
 sidebar_position: 2
+description: "Learn how to create custom WordPress notification triggers with PHP classes. Complete guide to registering triggers, hooks, merge tags and context methods."
+keywords: ["WordPress custom triggers", "notification trigger development", "PHP trigger class", "WordPress hooks", "notification plugin API", "custom post type triggers", "merge tags", "trigger registration"]
 ---
 
-# Custom Trigger
+# How to Create Custom WordPress Notification Triggers
 
-New, custom triggers can be easily registered in your plugin or theme. All you need is a simple class declaration and a function call.
+**WordPress custom notification triggers** are powerful components that allow developers to create automated notifications for any WordPress action. This comprehensive guide shows you how to build custom trigger classes, register WordPress hooks, and implement merge tags for dynamic content.
 
 The Trigger is really only a wrapper for WordPress' action(s). 
 

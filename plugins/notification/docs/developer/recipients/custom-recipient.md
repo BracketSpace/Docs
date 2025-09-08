@@ -1,11 +1,14 @@
 ---
-title: Custom Recipient
+title: "How to Create Custom WordPress Notification Recipients"
+sidebar_label: "Custom Recipient"
 sidebar_position: 1
+description: "Learn how to create custom WordPress notification recipients with unified API. Build recipient classes for emails, webhooks and custom carrier integrations."
+keywords: ["WordPress notification recipients", "custom recipient development", "recipient API", "notification carriers", "recipient classes", "user recipients", "email recipients", "recipient registration"]
 ---
 
-# Custom Recipient
+# How to Create Custom WordPress Notification Recipients
 
-The [Recipient](../general/extension-possibilities.md#recipient) API is meant to provide a unified interface for Carriers. You don't have to use them but it's best to keep the logic separated.
+**WordPress notification recipients** provide a unified interface for carriers to handle different types of notification destinations. The Recipient API separates logic and enables consistent handling of users, emails, roles, webhooks, and custom recipient types across all notification carriers.
 
 As an example, the default Email Carrier registers a couple of Recipients - User selected from a list, Role, Administrator, Plain text email, etc. They all resolve to a flat array of emails. The Webhook provider registers URL recipients: GET, POST, PUT, etc.
 

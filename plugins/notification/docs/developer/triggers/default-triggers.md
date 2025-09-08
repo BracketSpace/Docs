@@ -1,10 +1,14 @@
 ---
-title: List of all default Triggers
-description: A list of all Trigger names and slugs
+title: "WordPress Notification Plugin Default Triggers Reference"
+sidebar_label: "Default triggers"
+description: "Complete reference of all default WordPress notification triggers. Find trigger names, slugs, and examples for posts, users, comments, plugins and more."
 sidebar_position: 1
+keywords: ["WordPress notification triggers", "default triggers list", "trigger slugs", "post triggers", "user triggers", "comment triggers", "plugin triggers", "notification API reference"]
 ---
 
-# List of all default Triggers
+# WordPress Notification Plugin Default Triggers Reference
+
+**WordPress notification default triggers** provide comprehensive coverage for all major WordPress events and actions. This reference guide lists all available trigger names, slugs, and examples for posts, users, comments, plugins, themes, and more to help developers implement automated notifications.
 
 ## Comment
 

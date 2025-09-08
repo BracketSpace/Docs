@@ -1,11 +1,14 @@
 ---
-title: Creating an extension
+title: "How to Create WordPress Notification Plugin Extensions"
+sidebar_label: "Creating an extension"
 sidebar_position: 4
+description: "Complete guide to creating WordPress Notification plugin extensions. Learn extension development best practices, naming conventions, and publishing guidelines."
+keywords: ["WordPress extension development", "notification plugin extension", "plugin development guide", "WordPress.org publishing", "PHP extension creation", "notification API", "plugin boilerplate", "developer guide"]
 ---
 
-# Creating an extension
+# How to Create WordPress Notification Plugin Extensions
 
-You are very welcome to create your own Notification extension. You can publish it on WordPress.org repository. See below the detailed guidelines to how to make it the best extension ever written.
+**WordPress Notification plugin extension development** is a straightforward process that enables developers to create custom functionality and publish it on WordPress.org. This comprehensive guide covers extension creation best practices, naming conventions, and development workflows for building professional-grade notification extensions.
 
 For more details, see [Extension Possibilities](extension-possibilities.md).
 

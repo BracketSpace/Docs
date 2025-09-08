@@ -1,12 +1,14 @@
 ---
-title: Customizations
-description: How to add customizations from a plugin or child theme.
+title: "WordPress Notification Plugin Customization Guide"
+sidebar_label: "Customizations"
+description: "Learn how to customize WordPress Notification plugin from child themes and plugins. Follow best practices for plugin extensions and theme integrations."
 sidebar_position: 5
+keywords: ["WordPress plugin customization", "notification plugin hooks", "child theme integration", "plugin extension", "WordPress development", "custom triggers", "notification API", "plugin modification"]
 ---
 
-# Customizations
+# WordPress Notification Plugin Customization Guide
 
-Whether you want to customize the Notification plugin from a child theme or a plugin the workflow stays the same for both of the approaches.
+**WordPress Notification plugin customization** provides developers with flexible integration options for both child themes and custom plugins. The workflow remains consistent across both approaches, allowing you to extend notification functionality while maintaining update compatibility.
 
 All you need to do is create a file somewhere within your codebase and include it when the Notification plugin is ready.
 

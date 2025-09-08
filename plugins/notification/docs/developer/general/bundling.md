@@ -1,11 +1,14 @@
 ---
-title: Bundling Notification plugin
+title: "How to Bundle WordPress Notification Plugin as Library"
+sidebar_label: "Bundling"
 sidebar_position: 6
+description: "Learn how to bundle WordPress Notification plugin as a library in your themes and plugins. Simple integration guide for developers using plugin as dependency."
+keywords: ["WordPress plugin bundling", "plugin library", "notification plugin integration", "plugin dependency", "WordPress development", "ACF-style bundling", "plugin embedding", "library integration"]
 ---
 
-# Bundling Notification plugin
+# How to Bundle WordPress Notification Plugin as Library
 
-Including Notification in your plugin or theme is really very simple. It can work as a library (similar to Advanced Custom Fields or other plugins).
+**WordPress Notification plugin bundling** enables developers to include the notification system as a library within custom themes and plugins, similar to Advanced Custom Fields. This integration approach provides seamless notification functionality without requiring users to install a separate plugin.
 
 One difference is that you don't have to define anything. Just include the plugin's _load.php_ file like this:
 

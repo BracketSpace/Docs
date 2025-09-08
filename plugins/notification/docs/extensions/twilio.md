@@ -51,7 +51,7 @@ Now let's create your first SMS notification, shall we?
 
 ## Create notification
 
-Adding new notification is no different than in its standard version. To see basic information about the notifications see [this chapter](../../user-guide/how-to-create-notifications#define-new-notification).
+Adding new notification is no different than in its standard version. To see basic information about the notifications see [this chapter](../../user-guide/how-to-create-notifications#create-your-first-wordpress-notification).
 
 After giving your notification a name and choosing the trigger, select Twilio - SMS Carrier.
 
