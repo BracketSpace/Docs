@@ -1,4 +1,8 @@
 ---
+id: suppressing-the-notification
+title: Suppressing the Notification
+sidebar_label: Suppressing Notifications
+sidebar_position: 2
 description: How to disable the Notification submission on the fly
 ---
 

@@ -1,7 +1,8 @@
 ---
 id: white-label-mode
-title: White Label Mode
-sidebar_label: White Label Mode
+title: White label mode
+sidebar_label: White label mode
+sidebar_position: 5
 ---
 
 # White label mode

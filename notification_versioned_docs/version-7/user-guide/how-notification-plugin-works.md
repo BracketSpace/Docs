@@ -1,8 +1,7 @@
 ---
 id: how-notification-plugin-works
 title: How Notification plugin works
-sidebar_label: How Notification plugin works
-sidebar_position: 2
+sidebar_position: 1
 ---
 
 # How Notification plugin works
@@ -11,11 +10,11 @@ The [Notification plugin](https://wordpress.org/plugins/notification/) was creat
 
 The plugin is built on top of WordPress' actions system which means it can listen to any action defined in WordPress. And it has a thousand of them. Also, every properly created plugin should use them as well.
 
-:::note
-Examples:
+:::info Examples
 
 * Send an email to WordPress administrator when user logs in
 * Send a webhook to your accounting software when someone purchases a product
+
 :::
 
 ## Plugin components
@@ -24,7 +23,7 @@ The Notification plugin is created with a few components which works together. S
 
 ### Trigger
 
-The Trigger is a WordPress action(s) which are observed by the plugin. Examples:
+The Trigger is a WordPress action\(s\) which are observed by the plugin. Examples:
 
 * User registration
 * Post publication
@@ -32,7 +31,7 @@ The Trigger is a WordPress action(s) which are observed by the plugin. Examples:
 
 It allows the plugin to listen to what is happening in the background.
 
-:::note
+:::info
 The Notification is highly extensible. Developers can register own Triggers based on any WordPress actions.
 :::
 
@@ -68,3 +67,4 @@ Each Trigger has a set of it's Merge Tags. Having the `{plugin_name}` Tag in con
 You can use these Marge Tags in any Carrier. Ie. use the `{user_email}` as the Email recipient but also send it in a `user.email` field in the Webhook.
 
 The rule of thumb is - if you cannot see the Merge Tag in the sidebar, you cannot use it.
+

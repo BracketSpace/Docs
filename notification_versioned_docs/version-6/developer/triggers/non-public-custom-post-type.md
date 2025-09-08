@@ -1,7 +1,8 @@
 ---
 id: non-public-custom-post-type
-title: Non Public Custom Post Type
-sidebar_label: Non Public Custom Post Type
+title: Enable support for non-public Custom Post Type
+sidebar_label: Non-public Post Type
+sidebar_position: 5
 ---
 
 # Enable support for non-public Custom Post Type

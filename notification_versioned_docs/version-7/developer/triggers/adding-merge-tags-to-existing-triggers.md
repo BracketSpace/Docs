@@ -1,68 +1,51 @@
 ---
+id: adding-merge-tags-to-existing-triggers
 title: Adding Merge Tags to existing Triggers
-sidebar_position: 4
+sidebar_position: 2
 ---
 
 # Adding Merge Tags to existing Triggers
 
-Sometimes it's needed to add your own Merge Tag to an already defined Trigger. In example you can add a custom meta Merge Tag to default `Post Published` Trigger.
+Sometimes it's needed to add your own Merge Tag to already defined Trigger. In example you can add a custom meta Merge Tag to default `Post Published` Trigger.
 
 To do this simply hook into the action and add your Merge Tag:
 
 ```php
-use BracketSpace\Notification\Repository\MergeTag;
-use BracketSpace\Notification\Repository\Trigger\Post\PostPublished;
+// Hook just after the Trigger is registered.
+add_action( 'notification/trigger/registered', function( $trigger ) {
 
-// Hook into an action when Merge Tags are attached to Trigger.
-add_action(
-    'notification/trigger/merge_tags',
-    function($trigger)
-    {
-        // Check if registered Trigger is the one you need.
-        if (! $trigger instanceof PostPublished::class) {
-            return;
-        }
+	// Check if registered Trigger is the one you need.
+	if ( 'wordpress/post/updated' !== $trigger->get_slug() ) {
+		return;
+	}
 
-        // Pay attention to the Tag type you are defining.
-        // If you want to output an HTML, use HtmlTag instead.
-        $trigger->addMergeTag(
-            new MergeTag\StringTag(
-                [
-                    'slug' => 'new_merge_tag',
-                    'name' => __('New Merge Tag', 'textdomain'),
-                    'resolver' => function($trigger) {
-                        return get_post_meta($trigger->post->ID, '_my_meta_key', true);
-                    },
-                ]
-            )
-        );
-    }
-);
+	// Pay attention to the Tag type you are defining.
+	// If you want to output an HTML, use HtmlTag instead.
+	$trigger->add_merge_tag( new BracketSpace\Notification\Defaults\MergeTag\StringTag( [
+		'slug'     => 'new_merge_tag',
+		'name'     => __( 'New Merge Tag', 'textdomain' ),
+		'resolver' => function( $trigger ) {
+			return get_post_meta( $trigger->post->ID, '_my_meta_key', true );
+		},
+	] ) );
+
+} );
 ```
-
-:::warning
-Since v9, dynamic property `$trigger->{$post_type}` has been replaced with a static prop `$trigger->post`.
-:::
 
 ## Targeting all Post Type Triggers
 
 You can target all the Post Type Triggers like this:
 
 ```php
-add_action(
-    'notification/trigger/merge_tags',
-    function($trigger)
-    {
-        if (! preg_match(
-                '/post\/(.*)\/\(updated|trashed|published|drafted|added|pending|scheduled\)/',
-                $trigger->getSlug()
-        ) {
-            return;
-        }
+add_action( 'notification/trigger/registered', function( $trigger ) {
 
-        // Add your Tag.
-    }
-);
+	if ( ! preg_match( '/wordpress\/(.*)\/(updated|trashed|published|drafted|added|pending)/', $trigger->get_slug() ) ) {
+		return;
+	}
+
+	// Add your Tag.
+
+} );
 ```
 
 ## Global Merge Tags
@@ -70,18 +53,16 @@ add_action(
 The Notification plugin also supports global Merge Tags which are added to all Triggers. You can use this nifty function to create one:
 
 ```php
-use BracketSpace\Notification\Defaults\MergeTag\StringTag;
-use BracketSpace\Notification\Register;
-
-Register::globalMergeTag(new StringTag([
-	'slug' => 'option_value',
-	'name'=> __('Site option', 'textdomain'),
-	'resolver' => function($trigger) {
-		return get_option('your_option_name', 'Default');
+notification_add_global_merge_tag( new BracketSpace\Notification\Defaults\MergeTag\StringTag( [
+	'slug'     => 'option_value',
+	'name'     => __( 'Site title', 'textdomain' ),
+	'resolver' => function( $trigger ) {
+		return get_option( 'your_option_name', 'Default' );
 	},
-]));
+] ) );
 ```
 
-:::warning
-Before using any property of the Trigger make sure it's available. Global Merge Tags are intended to be loosely connected with any Trigger.
+::: warning
+Before using any property of the Trigger make sure it's avaible. Global Merge Tags are intended to be loosly connected with any Trigger.
 :::
+

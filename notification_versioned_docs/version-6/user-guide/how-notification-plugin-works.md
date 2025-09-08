@@ -2,7 +2,7 @@
 id: how-notification-plugin-works
 title: How Notification plugin works
 sidebar_label: How it works
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 # How Notification plugin works

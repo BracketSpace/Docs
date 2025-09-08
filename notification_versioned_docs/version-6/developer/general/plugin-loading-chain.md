@@ -1,7 +1,8 @@
 ---
 id: plugin-loading-chain
-title: Plugin Loading Chain
-sidebar_label: Plugin Loading Chain
+title: Plugin loading chain
+sidebar_label: Plugin loading chain
+sidebar_position: 6
 ---
 
 # Plugin loading chain

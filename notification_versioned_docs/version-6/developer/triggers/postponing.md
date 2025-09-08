@@ -1,7 +1,8 @@
 ---
 id: postponing
-title: Postponing
+title: Postponing the Trigger action
 sidebar_label: Postponing
+sidebar_position: 6
 ---
 
 # Postponing the Trigger action

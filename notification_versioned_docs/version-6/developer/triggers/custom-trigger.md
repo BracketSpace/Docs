@@ -2,6 +2,7 @@
 id: custom-trigger
 title: Custom Trigger
 sidebar_label: Custom Trigger
+sidebar_position: 3
 ---
 
 # Custom Trigger
@@ -128,6 +129,6 @@ notification_register_trigger( new CustomTrigger() );
 ```
 
 :::note
-If you are experiencing issues like **Fatal error: Class ‘BracketSpace\Notification\Abstracts\Trigger’ not found** please wrap your class definition and function call in the `notification/boot/initial` action.
+If you are experiencing issues like **Fatal error: Class 'BracketSpace\Notification\Abstracts\Trigger' not found** please wrap your class definition and function call in the `notification/boot/initial` action.
 :::
 

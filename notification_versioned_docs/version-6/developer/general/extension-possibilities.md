@@ -2,7 +2,7 @@
 id: extension-possibilities
 title: Extension possibilities
 sidebar_label: Extension possibilities
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 # Extension possibilities

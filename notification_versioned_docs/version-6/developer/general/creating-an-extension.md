@@ -1,14 +1,15 @@
 ---
 id: creating-an-extension
-title: Creating An Extension
-sidebar_label: Creating An Extension
+title: Creating an extension
+sidebar_label: Creating an extension
+sidebar_position: 4
 ---
 
 # Creating an extension
 
 You are very welcome to create your own Notification extension. You can publish it on WordPress.org repository. See below the detailed guidelines to how to make it the best extension ever written.
 
-[Extension Possibilities](./extension-possibilities)
+[Extension possibilities](./extension-possibilities)
 
 ## Quickstart
 

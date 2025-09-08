@@ -1,8 +1,7 @@
 {
-  "label": "Extensions",
-  "position": 4,
-  "link": {
-    "type": "generated-index",
-    "description": "Information about available extensions for the Notification plugin."
-  }
+  "label": "🧩 Extensions",
+  "position": 5,
+  "collapsible": false,
+  "collapsed": false,
+  "className": "sidebar-section-header"
 }

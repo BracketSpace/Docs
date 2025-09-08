@@ -1,7 +1,8 @@
 ---
 id: adding-merge-tags-to-existing-triggers
-title: Adding Merge Tags To Existing Triggers
-sidebar_label: Adding Merge Tags To Existing Triggers
+title: Adding Merge Tags to existing Triggers
+sidebar_label: Adding Merge Tags
+sidebar_position: 4
 ---
 
 # Adding Merge Tags to existing Triggers
@@ -63,6 +64,6 @@ notification_add_global_merge_tag( new BracketSpace\Notification\Defaults\MergeT
 ```
 
 :::warning
-Before using any property of the Trigger make sure it's avaible. Global Merge Tags are intended to be loosly connected with any Trigger.
+Before using any property of the Trigger make sure it's available. Global Merge Tags are intended to be loosely connected with any Trigger.
 :::
 

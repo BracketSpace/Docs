@@ -1,14 +1,15 @@
 ---
+id: default-triggers
+title: List of all default Triggers
+sidebar_label: Default Triggers
+sidebar_position: 2
 description: A list of all Trigger names and slugs
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-
 # List of all default Triggers
 
-<Tabs>
-<TabItem value="comment" label="Comment">
+## Comment Triggers
+
 This covers all the comment types. Use `comment`, `pingback`, `trackback`, `another_comment_type` instead of the `{comment_type_slug}`.
 
 | Trigger name | Trigger slug |
@@ -19,17 +20,17 @@ This covers all the comment types. Use `comment`, `pingback`, `trackback`, `anot
 | Comment spammed | `wordpress/comment_{comment_type_slug}_spammed` |
 | Comment trashed | `wordpress/comment_{comment_type_slug}_trashed` |
 | Comment unapproved | `wordpress/comment_{comment_type_slug}_unapproved` |
-</TabItem>
 
-<TabItem value="media" label="Media">
+## Media Triggers
+
 | Trigger name | Trigger slug |
 | :--- | :--- |
 | Media added | `wordpress/media_added` |
 | Media trashed | `wordpress/media_trashed` |
 | Media updated | `wordpress/media_updated` |
-</TabItem>
 
-<TabItem value="plugin" label="Plugin">
+## Plugin Triggers
+
 | Trigger name | Trigger slug |
 | :--- | :--- |
 | Plugin activated | `wordpress/plugin/activated` |
@@ -37,9 +38,9 @@ This covers all the comment types. Use `comment`, `pingback`, `trackback`, `anot
 | Plugin installed | `wordpress/plugin/installed` |
 | Plugin removed | `wordpress/plugin/removed` |
 | Plugin updated | `wordpress/plugin/updated` |
-</TabItem>
 
-<TabItem value="post" label="Post">
+## Post Triggers
+
 This covers all the custom post types, as well. Use `post`, `page`, `product`, `another_post_type` instead of the `{post_type_slug}`.
 
 | Trigger name | Trigger slug |
@@ -50,9 +51,9 @@ This covers all the custom post types, as well. Use `post`, `page`, `product`, `
 | Post published | `wordpress/{post_type_slug}/published` |
 | Post trashed | `wordpress/{post_type_slug}/trashed` |
 | Post updated | `wordpress/{post_type_slug}/updated` |
-</TabItem>
 
-<TabItem value="taxonomy" label="Taxonomy">
+## Taxonomy Triggers
+
 This covers all the taxonomies. Use `category`, `post_tag`, `another_taxonomy` instead of the `{taxonomy_slug}`.
 
 | Trigger name | Trigger slug |
@@ -60,17 +61,17 @@ This covers all the taxonomies. Use `category`, `post_tag`, `another_taxonomy` i
 | Taxonomy term created | `wordpress/{taxonomy_slug}/created` |
 | Taxonomy term deleted | `wordpress/{taxonomy_slug}/deleted` |
 | Taxonomy term updated | `wordpress/{taxonomy_slug}/updated` |
-</TabItem>
 
-<TabItem value="theme" label="Theme">
+## Theme Triggers
+
 | Trigger name | Trigger slug |
 | :--- | :--- |
 | Theme installed | `wordpress/theme/installed` |
 | Theme switched | `wordpress/theme/switched` |
 | Theme updated | `wordpress/theme/updated` |
-</TabItem>
 
-<TabItem value="user" label="User">
+## User Triggers
+
 | Trigger name | Trigger slug |
 | :--- | :--- |
 | User deleted | `wordpress/user_deleted` |
@@ -81,12 +82,10 @@ This covers all the taxonomies. Use `category`, `post_tag`, `another_taxonomy` i
 | User password reset request | `wordpress/user_password_reset_request` |
 | User profile updated | `wordpress/user_profile_updated` |
 | User registration | `wordpress/user_registered` |
-</TabItem>
 
-<TabItem value="wordpress" label="WordPress">
+## WordPress Triggers
+
 | Trigger name | Trigger slug |
 | :--- | :--- |
 | Available updates | `wordpress/updates_available` |
-</TabItem>
-</Tabs>
 

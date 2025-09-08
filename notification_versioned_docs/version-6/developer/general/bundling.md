@@ -1,7 +1,8 @@
 ---
 id: bundling
-title: Bundling
+title: Bundling Notification plugin
 sidebar_label: Bundling
+sidebar_position: 2
 ---
 
 # Bundling Notification plugin

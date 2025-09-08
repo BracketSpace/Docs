@@ -24,7 +24,7 @@ You can download the purchased extension from many sources:
 
 To install the extension plugin please navigate in your WordPress Dashboard to `Plugins` and `Add New`. Then click the Upload Plugin button.
 
-![Uploading a plugin from .zip package](.././assets/image.png)
+![Uploading a plugin from .zip package](../assets/image.png)
 
 Select the package you downloaded and click `Install Now` button.
 
@@ -34,7 +34,7 @@ Why it's important to activate the extension? Because this way you'll get the pl
 
 To activate the plugin simply go to `Notifications` and `Extensions` and in the extension box provide your license key.
 
-![Notification Extension activation box](.././assets/image%20%281%29.png)
+![Notification Extension activation box](../assets/image%20%281%29.png)
 
 Then just click the `Save and activate license` button.
 
@@ -44,5 +44,5 @@ You can get your license key from the Purchase Receipt screen and email or from 
 
 ## Free extensions
 
-Free extesions are available in the WordPress.org repository and you can install them via your wp-admin. No specific activation is required, the extension will act as a regular plugin.
+Free extensions are available in the WordPress.org repository and you can install them via your wp-admin. No specific activation is required, the extension will act as a regular plugin.
 

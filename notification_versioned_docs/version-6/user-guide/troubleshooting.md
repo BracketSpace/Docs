@@ -2,7 +2,7 @@
 id: troubleshooting
 title: Troubleshooting
 sidebar_label: Troubleshooting
-sidebar_position: 5
+sidebar_position: 6
 description: Debug quickly why the plugin isn't working
 ---
 
@@ -24,7 +24,7 @@ If the notification is not there, you probably found a bug. Please [report it on
 
 See:
 
-[Custom Post Type Support](./custom-post-type-support)
+[Custom Post Type support](./custom-post-type-support)
 
 
 
