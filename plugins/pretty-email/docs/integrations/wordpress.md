@@ -1,11 +1,15 @@
 ---
 id: wordpress
-title: WordPress
+title: "WordPress Email Integration - Pretty Email Setup Guide"
 sidebar_label: WordPress
 sidebar_position: 1
+description: "Enable Pretty Email templates for WordPress default emails. Step-by-step guide to integrate beautiful email templates with WordPress notifications and system emails."
+keywords: ["WordPress email templates", "WordPress email integration", "Pretty Email WordPress", "WordPress email customization", "default WordPress emails", "WordPress email styling"]
 ---
 
 # WordPress
+
+**WordPress email integration with Pretty Email** transforms your default WordPress system emails with beautiful, branded templates. This guide shows you how to enable and configure Pretty Email for all WordPress notifications.
 
 To turn on Pretty Email for WordPress emails:
 

@@ -1,10 +1,14 @@
 ---
-title: "Installation and License"
+title: "How to Install Pretty Email Plugin - Setup & License Guide"
 sidebar_label: "Installation and License"
 sidebar_position: 2
+description: "Step-by-step guide to install and activate Pretty Email WordPress plugin. Learn how to download, upload, and configure your license for beautiful email templates."
+keywords: ["install Pretty Email", "WordPress email plugin setup", "license activation", "plugin installation guide", "Pretty Email download", "WordPress plugin upload"]
 ---
 
 # Installation and License
+
+**Installing Pretty Email plugin on your WordPress site** is straightforward with this complete setup guide. Follow these steps to download, upload, and activate your email template builder plugin.
 
 ### Installation
 

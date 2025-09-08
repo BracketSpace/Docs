@@ -1,11 +1,15 @@
 ---
 id: woocommerce
-title: WooCommerce
+title: "WooCommerce Email Templates - Customize Order Notifications"
 sidebar_label: WooCommerce
 sidebar_position: 4
+description: "Create beautiful WooCommerce email templates with Pretty Email. Customize order confirmations, shipping notifications, and customer communications with professional designs."
+keywords: ["WooCommerce email templates", "WooCommerce email customization", "order email templates", "WooCommerce Pretty Email", "ecommerce email design", "WooCommerce notifications"]
 ---
 
 # WooCommerce
+
+**WooCommerce email template customization** with Pretty Email lets you create professional, branded order notifications and customer communications. Transform your store's email experience with beautiful, responsive email designs.
 
 Turning on Pretty Email for WooCommerce emails:
 

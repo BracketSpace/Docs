@@ -1,11 +1,15 @@
 ---
 id: typography
-title: Typography
+title: "Email Typography Settings - Fonts & Text Styling Guide"
 sidebar_label: Typography
 sidebar_position: 2
+description: "Master email typography in Pretty Email. Set default fonts, sizes, and text styles for paragraphs and headings. Learn about email-safe fonts and custom font options."
+keywords: ["email typography", "email fonts", "email text styling", "email-safe fonts", "Pretty Email typography", "email font settings"]
 ---
 
 # Typography
+
+**Email typography settings** in Pretty Email help you create consistent, professional text styling across your email templates. Configure fonts, sizes, and text styles that work reliably across different email clients.
 
 For each template, you can set the typography that will be used throughout this template.
 

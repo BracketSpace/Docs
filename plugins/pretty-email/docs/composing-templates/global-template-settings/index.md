@@ -1,11 +1,15 @@
 ---
 id: global-template-settings
-title: "Global Template Settings"
+title: "Global Email Template Settings - Customize Your Designs"
 sidebar_label: "Global Template Settings"
 sidebar_position: 0
+description: "Configure global settings for Pretty Email templates including width, status, colors, and typography. Set default styles that apply across your entire email template."
+keywords: ["email template settings", "global email settings", "email template customization", "Pretty Email configuration", "email design settings", "template styling options"]
 ---
 
 # Global Template Settings
+
+**Global template settings in Pretty Email** allow you to configure default styles and options that apply across your entire email template. These settings ensure consistent branding and design throughout your email communications.
 
 For each template, you can set global settings that will be used throughout this template.
 

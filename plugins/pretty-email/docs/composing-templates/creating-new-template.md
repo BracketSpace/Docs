@@ -1,10 +1,14 @@
 ---
-title: "Creating New Template"
+title: "Create Beautiful Email Templates in WordPress - Pretty Email Guide"
 sidebar_label: "Creating New Template"
 sidebar_position: 1
+description: "Learn how to create professional email templates in WordPress using Pretty Email's visual editor. Choose presets or build custom designs from scratch."
+keywords: ["create email templates", "WordPress email design", "email template builder", "custom email layouts", "Pretty Email templates", "visual email editor"]
 ---
 
 # Creating New Template
+
+**Creating beautiful email templates in WordPress** has never been easier with Pretty Email's visual template builder. You can start with professional presets or build completely custom email designs from scratch.
 
 To create a new Pretty Email template:
 

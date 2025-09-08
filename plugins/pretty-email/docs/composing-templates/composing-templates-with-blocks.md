@@ -1,10 +1,14 @@
 ---
-title: "Composing Templates with Blocks"
+title: "Email Template Builder Blocks - Complete Guide | Pretty Email"
 sidebar_label: "Composing Templates with Blocks"
 sidebar_position: 3
+description: "Master Pretty Email's block system for WordPress emails. Add images, buttons, text, spacers, and dynamic content blocks to create responsive email templates."
+keywords: ["email blocks", "Gutenberg email editor", "email template components", "drag and drop email builder", "WordPress email blocks", "email template elements"]
 ---
 
 # Composing Templates with Blocks
+
+**Building email templates with drag-and-drop blocks** in Pretty Email uses the familiar WordPress Gutenberg editor interface. This comprehensive guide shows you how to use each email block type to create professional, responsive email designs.
 
 Composing Pretty Email Templates is very similar to setting up a post in the Gutenberg editor. You can add Blocks using the inserter icon (➕) and manage them using Document Overview.
 

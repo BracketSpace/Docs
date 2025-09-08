@@ -1,11 +1,15 @@
 ---
 id: notification
-title: Notification
+title: "Notification Plugin Integration - Dynamic Email Templates"
 sidebar_label: Notification
 sidebar_position: 2
+description: "Integrate Pretty Email with BracketSpace Notification plugin. Create dynamic email templates with triggers, merge tags, and automated WordPress notifications."
+keywords: ["Notification plugin integration", "dynamic email templates", "WordPress notifications", "Notification Pretty Email", "automated email templates", "email triggers"]
 ---
 
 # Notification
+
+**Notification plugin integration with Pretty Email** creates powerful, dynamic email templates that respond to WordPress events. Combine BracketSpace's Notification plugin with Pretty Email's visual editor for advanced email automation.
 
 To use Pretty Email templates in the [Notification](https://wordpress.org/plugins/notification/) plugin, go to your notifications list and enter a notification edit:
 

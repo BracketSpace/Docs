@@ -1,11 +1,15 @@
 ---
 id: gravity-forms
-title: Gravity Forms
+title: "Gravity Forms Email Templates - Beautiful Form Notifications"
 sidebar_label: Gravity Forms
 sidebar_position: 3
+description: "Create stunning Gravity Forms email notifications with Pretty Email templates. Design professional form submission emails and autoresponders with custom layouts."
+keywords: ["Gravity Forms email templates", "form notification templates", "Gravity Forms Pretty Email", "form email customization", "contact form emails", "form autoresponders"]
 ---
 
 # Gravity Forms
+
+**Gravity Forms email template integration** with Pretty Email allows you to create beautiful, professional notifications for form submissions. Design custom email templates that match your brand for contact forms, registration forms, and more.
 
 If you use Notifications in the Gravity Form plugin, you can wrap them up in the Pretty Email template.
 
