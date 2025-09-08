@@ -2,13 +2,14 @@
 slug: /
 sidebar_label: Easy Watermark
 sidebar_position: 1
-title: Easy Watermark
-description: The official Easy Watermark WordPress plugin documentation
+title: "Easy Watermark - WordPress Image Protection & Watermarking Plugin"
+description: "Protect your WordPress images with Easy Watermark plugin. Add text and image watermarks to photos, bulk watermarking, easy removal, and Media Library integration."
+keywords: ["wordpress watermark plugin", "image protection", "watermark images", "bulk watermark", "media library watermark", "text watermark", "image watermark", "wordpress image protection", "photo watermark", "copyright protection"]
 ---
 
 # Easy Watermark
 
-Easy Watermark is a powerful WordPress plugin that allows you to easily add watermarks to your images directly from the WordPress Media Library. Whether you need to protect your images from unauthorized use or add branding to your content, Easy Watermark provides a simple and efficient solution.
+**Easy Watermark is a comprehensive WordPress image protection plugin** that enables you to add professional watermarks to your photos directly from the WordPress Media Library. Whether you need to protect your images from unauthorized use, add branding to your content, or maintain copyright control, Easy Watermark provides a simple yet powerful watermarking solution for WordPress websites.
 
 ## Key Features
 

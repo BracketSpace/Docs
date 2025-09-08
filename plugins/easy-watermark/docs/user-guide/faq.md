@@ -1,11 +1,15 @@
 ---
 id: faq
-title: FAQ
+title: "Easy Watermark FAQ - WordPress Watermarking Questions Answered"
 sidebar_label: FAQ
 sidebar_position: 3
+description: "Find answers to common Easy Watermark questions. Learn about watermark removal, backup restoration, bulk watermarking, text customization, and more."
+keywords: ["easy watermark faq", "watermark plugin questions", "remove watermark wordpress", "watermark backup restore", "bulk watermark wordpress", "text watermark settings", "watermark scaling options", "wordpress image protection faq"]
 ---
 
-# FAQ
+# Frequently Asked Questions
+
+**Easy Watermark FAQ** answers the most common questions about WordPress watermarking. Whether you're wondering about watermark removal, backup options, or customization features, find comprehensive answers to help you protect your images effectively.
 
 ## Can I remove the watermark after it was added?
 

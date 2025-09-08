@@ -1,11 +1,15 @@
 ---
 id: common-issues
-title: Common issues
+title: "Easy Watermark Troubleshooting - Common Issues & Solutions"
 sidebar_label: Common issues
 sidebar_position: 4
+description: "Fix Easy Watermark issues with our troubleshooting guide. Solutions for watermarks not showing, transparency problems, cache issues, and more."
+keywords: ["easy watermark troubleshooting", "watermark not showing", "watermark problems", "wordpress watermark issues", "fix watermark transparency", "watermark cache busting", "restore image problems", "watermark support"]
 ---
 
-# Common issues
+# Easy Watermark Troubleshooting Guide
+
+**Troubleshooting Easy Watermark issues** ensures your WordPress watermarking works perfectly. This comprehensive guide addresses the most common problems users encounter, from watermarks not displaying properly to image restoration issues.
 
 ## Watermark has been applied to the image but is not showing on the front-end.
 
@@ -47,11 +51,11 @@ Let us explain first what is the Auto Watermark feature and what is the Auto Wat
 
 The Auto Watermark feature lets you have your images watermarked automatically during upload. You can define whether you want to enable this feature or not, for each watermark separately on their edit page. You can also define image or post types for which the Auto Watermark feature should work.
 
-![Auto Watermark feature settings](../../assets/auto-watermark-feature-settings-panel.png)
+![Easy Watermark auto watermark feature settings panel in WordPress](../../assets/auto-watermark-feature-settings-panel.png)
 
 Then there is a switch available during images upload, that lets you decide if any of the previously set Auto Watermark feature's behavior is supposed to happen on this specific image(s) upload. This option is set to ON by default.
 
-![Auto Watermark switch](../../assets/upload-media-auto-watermark-toggle-switch.png)
+![WordPress media upload auto watermark toggle switch](../../assets/upload-media-auto-watermark-toggle-switch.png)
 
 1. If you turn it OFF, the Auto Watermark feature won't work at all on this image(s) upload, no matter what are each watermark settings. In other words, the part of the code responsible for the Auto Watermark feature behavior won't be executed at all during this particular image(s) upload.
 2. If you leave it ON, the Auto Watermark feature's code will be executed, which means checking each watermark's settings and applying (only) watermarks that have this feature enabled for current image and post types.

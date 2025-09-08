@@ -1,11 +1,15 @@
 ---
 id: custom-placeholder
-title: Custom Placeholder
+title: "Create Custom Watermark Placeholders - Easy Watermark Developer Guide"
 sidebar_label: Custom Placeholder
 sidebar_position: 2
+description: "Learn how to create custom watermark placeholders for Easy Watermark plugin. PHP development guide with code examples for dynamic text watermarks."
+keywords: ["custom watermark placeholders", "easy watermark development", "php watermark placeholders", "wordpress watermark coding", "custom placeholder class", "watermark plugin development", "placeholder resolver", "dynamic watermark php"]
 ---
 
-# Custom Placeholder
+# Create Custom Watermark Placeholders
+
+**Creating custom watermark placeholders** extends Easy Watermark's functionality with personalized dynamic content for your WordPress watermarks. This developer guide shows how to build PHP classes that generate custom placeholder values for advanced watermarking scenarios.
 
 Each placeholder is defined with a class responsible for replacing a specific string tag with a dynamic value. Placeholder class needs to extend `EasyWatermark\Placeholders\Abstracts\Placeholder` and should implement the following methods:
 
