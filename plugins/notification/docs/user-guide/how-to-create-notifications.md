@@ -16,7 +16,7 @@ If you already have the plugin installed, [skip this section](#define-new-notifi
 
 The Notification plugin can be downloaded from [official WordPress repository](https://wordpress.org/plugins/notification/). That means you can search for it in your WordPress dashboard.
 
-![Installation process](../assets/2019-03-09_09-31-11.gif)
+![Installation process](../../assets/notification-plugin-installation-process.gif)
 
 Then you just have to activate it and you are all set!
 
@@ -24,7 +24,7 @@ Then you just have to activate it and you are all set!
 
 In your WordPress dashboard you should see the `Notifications` menu. It will contain the `Add New Notification` link which will take you directly to your fresh Notification.
 
-![Add new notification](../assets/image-8.png)
+![Add new notification](../../assets/notification-add-new-menu-button.png)
 
 You can give your Notification a Title you want (for internal use only), select the Trigger you want to use and configure your Carriers.
 

@@ -11,7 +11,7 @@ By default, the Notification plugin have the Post and Page enabled, but you are 
 
 Just navigate to Notification plugin Settings and into the _Triggers_ section. Then, in _Post Types_ setting select your Post Type and save the settings.
 
-![Enabling Custom Post Type support in Notification plugin](../../assets/2019-03-22_15-59-16.gif)
+![Enabling Custom Post Type support in Notification plugin](../../../assets/notification-custom-post-type-settings.gif)
 
 After that, you will be able to use all the set of Post triggers, like _Post Type updated_ or _Post type added._
 

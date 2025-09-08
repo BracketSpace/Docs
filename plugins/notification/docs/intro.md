@@ -9,7 +9,7 @@ slug: /
 
 # Notification – Custom Notifications and Alerts for WordPress
 
-![Notification plugin logo](./assets/notification-hires.png)
+![Notification plugin logo](../assets/notification-wordpress-plugin-logo.png)
 
 :::tip
 [Download the plugin from WordPress.org](https://wordpress.org/plugins/notification/)

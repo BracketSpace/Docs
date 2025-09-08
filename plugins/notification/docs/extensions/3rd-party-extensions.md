@@ -15,4 +15,4 @@ Yoast SEO merge tags for post triggers and scheduled post triggers. Wrote by Jea
 This extension is not compatible with Notification v9 and later.
 :::
 
-[Download Notification : Yoast SEO 1.0.2](../assets/notification-yoastseo%20(2).zip)
+[Download Notification : Yoast SEO 1.0.2](../../assets/notification-yoast-seo-extension.zip)

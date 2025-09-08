@@ -14,11 +14,11 @@ description: Version 2.0.0
 
 Let's assume that you want to send a notification **7 days after post publication date**. The time window is set to 1 day. This setting means that it will match any post which publication date was between 8 and 7 days ago.
 
-![The timeline. Each gray dot stands for the scheduled check (default: 1 hour)](../assets/scheduled-triggers-after-static.png)
+![The timeline. Each gray dot stands for the scheduled check (default: 1 hour)](../../assets/scheduled-triggers/scheduled-triggers-timeline-after.png)
 
 The notification **7 days before post publication date** (scheduled post) works the similar way. The time window is as well 1 day. This setting means that it will match any post which has future publication date between 6 and 7 days in the future.
 
-![The timeline](../assets/scheduled-triggers-before-static.png)
+![The timeline](../../assets/scheduled-triggers/scheduled-triggers-timeline-before.png)
 
 ### Behind the scenes
 
@@ -26,7 +26,7 @@ The plugin is running on the WordPress Cron. The default schedule is 1 hour, but
 
 On each of the executions, the proper objects (Posts or Users) are picked from the database. If you are using the Merge Tag time value, **all not locked object are queried**.
 
-![Schedule running and matching an object](../assets/scheduled-triggers.gif)
+![Schedule running and matching an object](../../assets/scheduled-triggers/scheduled-triggers-matching-animation.gif)
 
 If there's a match and Notification gets sent, the object is locked for a specific time.
 

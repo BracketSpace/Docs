@@ -16,11 +16,11 @@ After installing and activating the plugin you have to generate VAPID Keys. They
 
 Click the link in admin notification or head over to Settings -> Carriers -> Push.
 
-![Generate VAPID Keys](../assets/push-generate-vapid.png)
+![Generate VAPID Keys](../../assets/push/push-notification-generate-vapid-keys.png)
 
 Next, press Generate button and Save changes.
 
-![Save Changes](../assets/push-save-changes.png)
+![Save Changes](../../assets/push/push-notification-save-settings.png)
 
 ### Plugin configuration
 
@@ -61,11 +61,11 @@ There is no way to determine who is the subscriber if a subscription is not conn
 
 You can see user subscriptions on the user list in the admin dashboard.
 
-![User Subscriptions](../assets/push-user-subscriptions.png)
+![User Subscriptions](../../assets/push/push-notification-user-subscriptions.png)
 
 In the user edit view, you can see details about its subscriptions, or remove any of them separately.
 
-![User Edit View](../assets/push-user-edit.png)
+![User Edit View](../../assets/push/push-notification-user-edit-view.png)
 
 ### Notification Recipients
 

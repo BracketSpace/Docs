@@ -11,7 +11,7 @@ sidebar_position: 3
 
 Make sure that you can setup the email headers. Go to Notification -> Settings -> Carriers -> Email and check the **Allow to configure email headers** checkbox.
 
-![Enable email headers](../../assets/image.png)
+![Enable email headers](../../../assets/notification-email-headers-settings.png)
 
 ## Configure the FROM Header
 
@@ -21,4 +21,4 @@ On the specific Notification screen add new `From` header with value in format
 From Name <from@email.com>
 ```
 
-![Configure from header](../../assets/image-2.png)
+![Configure from header](../../../assets/notification-email-from-header-configuration.png)
