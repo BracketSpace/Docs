@@ -222,6 +222,10 @@ const config: Config = {
               label: 'GitHub',
               href: 'https://github.com/bracketspace',
             },
+            {
+              label: 'Help Center',
+              href: 'https://bracketspace.com/help-center/',
+            },
           ],
         },
         {
