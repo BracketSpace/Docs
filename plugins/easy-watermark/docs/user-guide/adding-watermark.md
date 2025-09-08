@@ -15,11 +15,11 @@ sidebar_position: 1
 
 3. Go to "Edit more details"
 
-![Edit more details](../assets/images/obraz-1.png)
+![Edit more details](../../assets/media-library-edit-attachment-details-link.png)
 
 4. Apply your watermark(s) using buttons in the Watermark box
 
-![Watermark box](../assets/images/obraz-4.png)
+![Watermark box](../../assets/attachment-details-watermark-controls-box.png)
 
 5. Update your image
 
@@ -29,22 +29,22 @@ sidebar_position: 1
 
 2. Click the "Bulk select" button
 
-![Bulk select button](../assets/images/obraz-2.png)
+![Bulk select button](../../assets/media-library-bulk-select-button.png)
 
 3. Choose images you want to watermark
 
 4. Click the "Watermark Selected" button
 
-![Watermark Selected button](../assets/images/obraz-5.png)
+![Watermark Selected button](../../assets/bulk-actions-watermark-selected-button.png)
 
 5. Select a watermark you want to apply
 
-![Select watermark](../assets/images/obraz-3.png)
+![Select watermark](../../assets/watermark-selection-dropdown-modal.png)
 
 6. Apply by clicking the "Watermark" button
 
-![Apply watermark](../assets/images/obraz-11.png)
+![Apply watermark](../../assets/apply-watermark-confirmation-button.png)
 
 7. Wait for your watermark to be applied on all chosen images
 
-![Processing watermark](../assets/images/obraz.png)
+![Processing watermark](../../assets/watermark-processing-progress-bar.png)

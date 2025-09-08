@@ -35,7 +35,7 @@ Since some users had a problem with this version parameter feature, we added an 
 
 ## I cannot restore an image
 
-See how to manually restore your image - it's been explained in the [FAQ](faq#how-to-manually-restore-images).
+See how to manually restore your image - it's been explained in the [FAQ](/easy-watermark/user-guide/faq#how-to-manually-restore-images).
 
 ## I cannot choose an image/text watermark - it's grayed out
 
@@ -47,11 +47,11 @@ Let us explain first what is the Auto Watermark feature and what is the Auto Wat
 
 The Auto Watermark feature lets you have your images watermarked automatically during upload. You can define whether you want to enable this feature or not, for each watermark separately on their edit page. You can also define image or post types for which the Auto Watermark feature should work.
 
-![Auto Watermark feature settings](../assets/images/obraz-6.png)
+![Auto Watermark feature settings](../../assets/auto-watermark-feature-settings-panel.png)
 
 Then there is a switch available during images upload, that lets you decide if any of the previously set Auto Watermark feature's behavior is supposed to happen on this specific image(s) upload. This option is set to ON by default.
 
-![Auto Watermark switch](../assets/images/obraz-7.png)
+![Auto Watermark switch](../../assets/upload-media-auto-watermark-toggle-switch.png)
 
 1. If you turn it OFF, the Auto Watermark feature won't work at all on this image(s) upload, no matter what are each watermark settings. In other words, the part of the code responsible for the Auto Watermark feature behavior won't be executed at all during this particular image(s) upload.
 2. If you leave it ON, the Auto Watermark feature's code will be executed, which means checking each watermark's settings and applying (only) watermarks that have this feature enabled for current image and post types.
