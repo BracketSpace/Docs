@@ -91,7 +91,7 @@ Follow Conventional Commits format:
 - [x] Migrate Pretty Email docs with addon pages
 - [x] Migrate Notification plugin docs with addon pages
 - [x] Common docs
-- [ ] Advanced Cron Manager docs
+- [x] Advanced Cron Manager docs
 
 ### Phase 4: SEO & Features
 - [ ] Update social card
