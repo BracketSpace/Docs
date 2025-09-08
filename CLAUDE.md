@@ -94,7 +94,7 @@ Follow Conventional Commits format:
 - [x] Advanced Cron Manager docs
 
 ### Phase 4: SEO & Features
-- [ ] Update social card
+- [x] Update social card
 - [ ] Fix syntax highlighting
 - [ ] Fix breadcrumbs
 - [ ] Install [sitemap](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-sitemap)
