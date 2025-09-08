@@ -2,6 +2,10 @@
 
 Keep your WordPress site secure when using BracketSpace plugins with these essential security guidelines and best practices.
 
+:::tip WordPress Care & Insurance Policies
+BracketSpace offers comprehensive WordPress insurance policies that take care of updates, monitoring, and security for you. Let our experts handle the technical aspects while you focus on your business. Learn more at [care.bracketspace.com](https://care.bracketspace.com).
+:::
+
 ## Plugin Security Features
 
 ### Built-in Security Measures
@@ -29,7 +33,7 @@ Our plugins include several security features:
 
 #### Strong Authentication
 - **Complex Passwords**: Use strong, unique passwords
-- **Two-Factor Authentication**: Enable 2FA with plugins like Wordfence
+- **Two-Factor Authentication**: Enable 2FA with plugins
 - **Limit Login Attempts**: Prevent brute force attacks
 - **Change Default Username**: Don't use "admin" as username
 
@@ -44,37 +48,6 @@ Our plugins include several security features:
 - **wp-config.php**: Move outside web root or set permissions to 600
 - **Disable File Editing**: Add `define('DISALLOW_FILE_EDIT', true);`
 - **Remove Default Files**: Delete readme.html, license.txt
-
-## Security Plugin Recommendations
-
-### Essential Security Plugins
-We recommend and test compatibility with:
-
-#### Wordfence Security
-- **Firewall Protection**: Real-time threat defense
-- **Malware Scanning**: Regular site scanning
-- **Login Security**: Brute force protection
-- **Two-Factor Authentication**: Enhanced login security
-
-#### Sucuri Security
-- **Website Monitoring**: 24/7 security monitoring
-- **DDoS Protection**: Traffic filtering
-- **Malware Cleanup**: Professional malware removal
-- **SSL Certificate**: Secure connections
-
-#### iThemes Security
-- **Security Hardening**: One-click security improvements
-- **Brute Force Protection**: Login attempt limiting
-- **File Change Detection**: Monitor unauthorized changes
-- **Security Reports**: Regular security status updates
-
-### Security Plugin Configuration
-**Recommended Settings:**
-- Enable firewall protection
-- Set up login attempt limits (3-5 attempts)
-- Enable two-factor authentication
-- Schedule regular malware scans
-- Set up email notifications for security events
 
 ## Safe Update Procedures
 
@@ -237,10 +210,14 @@ If you suspect a security incident:
 - [ ] Update security documentation
 - [ ] Review access permissions
 
+:::tip WordPress Care & Insurance Policies
+BracketSpace offers comprehensive WordPress insurance policies that take care of updates, monitoring, and security for you. Let our experts handle the technical aspects while you focus on your business. Learn more at [care.bracketspace.com](https://care.bracketspace.com).
+:::
+
 ### Emergency Contacts
 - **Hosting Support**: Your hosting provider's emergency line
 - **Security Expert**: Trusted security professional
-- **BracketSpace Support**: support@bracketspace.com
+- **BracketSpace Support**: [Contact us](https://bracketspace.com/help-center/)
 - **WordPress Security**: WordPress security team contact
 
 Remember: Security is not a one-time setup but an ongoing process. Stay vigilant, keep everything updated, and follow these best practices to maintain a secure WordPress site.
