@@ -98,6 +98,6 @@ Follow Conventional Commits format:
 - [x] Fix syntax highlighting
 - [x] Fix breadcrumbs
 - [x] Install [sitemap](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-sitemap)
-- [ ] Set up SEO optimization with existing meta tags (with contextual image filenames)
-- [ ] Set up [analytics](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-google-gtag)
+- [x] Set up [analytics](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-google-gtag)
 - [ ] Optimize images [plugin](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-ideal-image)
+- [ ] Set up SEO optimization with existing meta tags (with contextual image filenames)
