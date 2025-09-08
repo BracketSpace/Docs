@@ -1,11 +1,13 @@
 ---
 sidebar_position: 3
-title: Custom Logging
+title: "Custom Cron Logging in WordPress - Advanced Cron Manager PRO"
+description: "Learn how to implement custom logging for WordPress cron events with Advanced Cron Manager PRO. Track execution, debug issues, and monitor performance with detailed logs."
+keywords: ["wordpress cron logging", "custom cron logs", "cron debugging", "wordpress action hooks", "cron event tracking", "log tracking", "cron monitoring", "wordpress task logging"]
 ---
 
 # Custom Logging
 
-Advanced Cron Manager PRO provides a powerful custom logging system that allows you to add your own log entries directly from within your cron actions. This feature enables detailed tracking and debugging of your custom cron events.
+**Custom cron logging in Advanced Cron Manager PRO is a powerful WordPress action-based system** that allows developers to add detailed log entries directly from within cron actions, enabling comprehensive tracking, debugging, and performance monitoring of custom WordPress cron events.
 
 ## Overview
 

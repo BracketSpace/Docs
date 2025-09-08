@@ -1,7 +1,9 @@
 ---
 slug: /
 sidebar_label: Advanced Cron Manager
-title: Advanced Cron Manager Plugin
+title: "Advanced Cron Manager - WordPress Cron Job Manager Plugin"
+description: "Take complete control of WordPress cron jobs with the most comprehensive cron management plugin. View, manage, debug and optimize scheduled tasks on your WordPress site."
+keywords: ["wordpress cron manager", "cron job plugin", "wordpress task scheduler", "cron debugging", "scheduled tasks", "wordpress automation", "cron job control", "task management"]
 ---
 
 # Advanced Cron Manager
