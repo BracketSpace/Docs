@@ -241,7 +241,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} BracketSpace. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} BracketSpace. Built with Docusaurus. <a href="/sitemap.xml">Sitemap</a>.`,
     },
     prism: {
       theme: prismThemes.github,
