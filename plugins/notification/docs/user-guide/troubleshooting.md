@@ -32,7 +32,7 @@ If the notification is not there, you probably found a bug. Please [report it on
 
 Most of the time this is caused by the post editor saving the content multiple times. Ie. Gutenberg saves the main content in one request, taxonomy terms in another request, ACF saves the fields in another request, and so on.
 
-Please activate the [Background Processing](./advanced/background-processing) feature to prevent this from happening.
+Please activate the [Background Processing](advanced/background-processing.md) feature to prevent this from happening.
 
 ## Weird characters are being sent in the email
 
@@ -54,7 +54,7 @@ If you have an expired Notification license you'd like to renew, contact us at s
 
 See:
 
-[Custom Post Type support](./advanced/custom-post-type-support)
+[Custom Post Type support](advanced/custom-post-type-support.md)
 
 ## Storage templates base path: .../wp-content/plugins/notification/src/templates must exist and be a directory
 

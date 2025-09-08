@@ -5,11 +5,11 @@ sidebar_position: 1
 
 # Custom Recipient
 
-The [Recipient](../general/extension-possibilities#recipient) API is meant to provide a unified interface for Carriers. You don't have to use them but it's best to keep the logic separated.
+The [Recipient](../general/extension-possibilities.md#recipient) API is meant to provide a unified interface for Carriers. You don't have to use them but it's best to keep the logic separated.
 
 As an example, the default Email Carrier registers a couple of Recipients - User selected from a list, Role, Administrator, Plain text email, etc. They all resolve to a flat array of emails. The Webhook provider registers URL recipients: GET, POST, PUT, etc.
 
-Your Custom Recipient may allow you to select a User from a dropdown and parse a list of all selected Users to some kind of UUID, the one which is understood by your [Custom Carrier](../carriers/custom-carrier).
+Your Custom Recipient may allow you to select a User from a dropdown and parse a list of all selected Users to some kind of UUID, the one which is understood by your [Custom Carrier](../carriers/custom-carrier.md).
 
 ## Recipient class
 

@@ -5,7 +5,7 @@ sidebar_position: 4
 
 # Background Processing filter
 
-Regardless of the [setting in Dashboard](../../../user-guide/advanced/background-processing) you can enable or disable background processing for a particular Trigger with a simple filter. You can reference [default Triggers](../../triggers/default-triggers) here.
+Regardless of the [setting in Dashboard](../../../../user-guide/advanced/background-processing) you can enable or disable background processing for a particular Trigger with a simple filter. You can reference [default Triggers](../../triggers/default-triggers.md) here.
 
 ## Disable Triggers
 

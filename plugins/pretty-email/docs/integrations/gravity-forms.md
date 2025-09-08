@@ -21,7 +21,7 @@ If you use Notifications in the Gravity Form plugin, you can wrap them up in the
 You can choose one of 3 options:
 
 1. No email template - if you don't want to use any Pretty Email template on this notification
-2. Default Pretty Email template - if you want to use whichever template is set up as default in the PE settings (see [WordPress](./wordpress) integration)
+2. Default Pretty Email template - if you want to use whichever template is set up as default in the PE settings (see [WordPress](wordpress.md) integration)
 3. Specifically, choose one of your saved templates
 
 :::note

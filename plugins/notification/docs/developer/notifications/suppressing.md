@@ -26,5 +26,5 @@ add_filter(
 ```
 
 :::danger
-At this point, the Trigger doesn't execute the context() method so you cannot use the Merge Tags. If you rely on Merge Tags, [suppress the Carrier](../carriers/suppressing) instead.
+At this point, the Trigger doesn't execute the context() method so you cannot use the Merge Tags. If you rely on Merge Tags, [suppress the Carrier](../carriers/suppressing.md) instead.
 :::

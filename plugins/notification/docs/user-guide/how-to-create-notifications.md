@@ -30,4 +30,4 @@ You can give your Notification a Title you want (for internal use only), select 
 
 To read more what the Trigger and Carrier is, see this article:
 
-[How Notification plugin works](./how-notification-plugin-works)
+[How Notification plugin works](how-notification-plugin-works.md)

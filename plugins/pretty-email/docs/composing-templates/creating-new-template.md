@@ -39,5 +39,5 @@ You can send a preview of your template to your chosen email address, to see how
 ![](../../assets/email-template-preview-send-interface.png)
 
 :::note
-See [Global Template Settings](./global-template-settings/) and [Composing Templates with Blocks](./composing-templates-with-blocks) to learn how to put together beautiful templates.
+See [Global Template Settings](global-template-settings/index.md) and [Composing Templates with Blocks](composing-templates-with-blocks.md) to learn how to put together beautiful templates.
 :::

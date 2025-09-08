@@ -8,7 +8,7 @@ sidebar_position: 3
 
 You are very welcome to create your own Notification extension. You can publish it on WordPress.org repository. See below the detailed guidelines to how to make it the best extension ever written.
 
-See [Extension possibilities](./extension-possibilities) for what you can build.
+See [Extension possibilities](extension-possibilities.md) for what you can build.
 
 ## Quickstart
 

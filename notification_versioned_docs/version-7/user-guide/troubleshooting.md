@@ -23,7 +23,7 @@ If the notification is not there, you probably found a bug. Please [report it on
 
 See:
 
-See [Custom Post Type support](./custom-post-type-support) for details.
+See [Custom Post Type support](custom-post-type-support.md) for details.
 
 
 

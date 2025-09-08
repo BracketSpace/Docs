@@ -15,7 +15,7 @@ add_action( 'notification/init', function() {
 } );
 ```
 
-What it does is just remove all the [default triggers](../triggers/default-triggers) and [the upselling](../../user-guide/advanced/disable-upselling). The fun part starts with the parameters you can use. See below:
+What it does is just remove all the [default triggers](../triggers/default-triggers.md) and [the upselling](../../user-guide/advanced/disable-upselling.md). The fun part starts with the parameters you can use. See below:
 
 ```php
 Whitelabel::enable( [

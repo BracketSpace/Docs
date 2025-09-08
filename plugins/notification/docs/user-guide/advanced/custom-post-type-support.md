@@ -19,4 +19,4 @@ After that, you will be able to use all the set of Post triggers, like _Post Typ
 
 To enable support for non-public Custom Post Type you are going to need a short code snippet. Please refer to the article below.
 
-[Enable support for non-public Custom Post Type](../../developer/triggers/non-public-custom-post-type)
+[Enable support for non-public Custom Post Type](../../developer/triggers/non-public-custom-post-type.md)

@@ -17,13 +17,13 @@ By default, plugin supports the Email and Webhook carriers, but it can be anythi
 
 The best part is that you can create any form fields, including repeatable fields. All using very simple internal API.
 
-See [Custom Carrier](../carriers/custom-carrier) for more details.
+See [Custom Carrier](../carriers/custom-carrier.md) for more details.
 
 ### Trigger
 
 The trigger is a class which handles the action you want to hook in. Because it utilizes the WordPress actions system, you can hook up to anything you want! Even a page refresh, but this would probably kill your server.
 
-See [Custom Trigger](../triggers/custom-trigger) for more details.
+See [Custom Trigger](../triggers/custom-trigger.md) for more details.
 
 ### Merge Tag
 
@@ -37,7 +37,7 @@ If you wish to add some more Merge tags to existing Triggers – that's not a pr
 
 If you wish to add completely new Merge tags – that's not a problem too.
 
-See [Adding Merge Tags to Existing Triggers](../triggers/adding-merge-tags-to-existing-triggers) for more details.
+See [Adding Merge Tags to Existing Triggers](../triggers/adding-merge-tags-to-existing-triggers.md) for more details.
 
 ### Recipient
 
@@ -45,7 +45,7 @@ The recipient is also represented by a class. It's not obligatory to use them wi
 
 Also, it provides a value parser which automatically changes saved values to values which are understood by your Notification. For example, the Email Notification has Recipients. In the database, we are storing user IDs and with Recipient class they are automatically changed to an email address.
 
-See [Custom Recipient](../recipients/custom-recipient) for more details.
+See [Custom Recipient](../recipients/custom-recipient.md) for more details.
 
 ## Summary
 

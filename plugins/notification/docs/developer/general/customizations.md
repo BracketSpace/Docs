@@ -24,4 +24,4 @@ Always use a [child theme](https://developer.wordpress.org/themes/advanced-topic
 
 For bigger customizations, we suggest creating a full extension plugin.
 
-See [Creating an Extension](./creating-an-extension) for more details.
+See [Creating an Extension](creating-an-extension.md) for more details.

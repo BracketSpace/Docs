@@ -24,7 +24,7 @@ If the notification is not there, you probably found a bug. Please [report it on
 
 See:
 
-[Custom Post Type support](./custom-post-type-support)
+[Custom Post Type support](./custom-post-type-support.md)
 
 
 

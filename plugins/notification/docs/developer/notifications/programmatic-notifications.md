@@ -5,7 +5,7 @@ sidebar_position: 3
 
 # Programmatic Notifications
 
-The notifications don't necessarily have to be saved in WordPress database nor loaded from JSON files. A good example is [dynamic trigger testing](../snippets/general/automatic-trigger-testing) where all the notifications are created on the fly.
+The notifications don't necessarily have to be saved in WordPress database nor loaded from JSON files. A good example is [dynamic trigger testing](../snippets/general/automatic-trigger-testing.md) where all the notifications are created on the fly.
 
 ### Basic example
 

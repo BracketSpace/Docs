@@ -65,10 +65,10 @@ class ManualTrigger extends BaseTrigger
 }
 ```
 
-You need to wrap the class definition with `notification/init` action, because [this is the earliest the abstract classes are accessible](../../general/plugin-loading-chain).
+You need to wrap the class definition with `notification/init` action, because [this is the earliest the abstract classes are accessible](../../general/plugin-loading-chain.md).
 
 :::note
-Read more about [Custom Triggers](../../triggers/custom-trigger)
+Read more about [Custom Triggers](../../triggers/custom-trigger.md)
 :::
 
 ## Notification
@@ -116,7 +116,7 @@ add_action(
 In this example, we use a simple email Carrier, but you are free to use any other Carrier registered within the Notification plugin. The easiest way to get the Carrier configuration is to set it up in the WordPress Dashboard and just export the Notification to JSON. The JSON file will have all the keys you need to configure here.
 
 :::note
-Read more about [Programmatic Notifications](../../notifications/programmatic-notifications)
+Read more about [Programmatic Notifications](../../notifications/programmatic-notifications.md)
 :::
 
 ## Action

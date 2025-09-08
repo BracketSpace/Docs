@@ -6,7 +6,7 @@ sidebar_position: 6
 
 # Runtime
 
-The plugin initializes itself on action `init` with priority `5` (see the [loading chain](./plugin-loading-chain)) so after this hook you can access the whole Runtime object with a simple wrapper class.
+The plugin initializes itself on action `init` with priority `5` (see the [loading chain](./plugin-loading-chain.md)) so after this hook you can access the whole Runtime object with a simple wrapper class.
 
 To get the Runtime object:
 

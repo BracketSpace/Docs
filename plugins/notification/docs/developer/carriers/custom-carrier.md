@@ -9,7 +9,7 @@ Carrier is an element that connects the WordPress action with a service. Default
 
 If you want to connect with API or other delivery services, you should create a custom Carrier.
 
-Carriers very often need the [Recipients](../recipients/custom-recipient), so you may want to add a custom one as well.
+Carriers very often need the [Recipients](../recipients/custom-recipient.md), so you may want to add a custom one as well.
 
 ## Carrier class
 

@@ -34,7 +34,7 @@ Each block has its own specific settings, available in the `Block` tab in the `S
 ![](../../assets/email-block-settings-panel-access.png)
 
 :::note
-Settings are applied in a cascade, like in CSS, so the most nested block settings are most important, followed by the parent block settings. The [global template settings](./global-template-settings/) only apply to blocks without more specific settings.
+Settings are applied in a cascade, like in CSS, so the most nested block settings are most important, followed by the parent block settings. The [global template settings](global-template-settings/index.md) only apply to blocks without more specific settings.
 :::
 
 ### Noteworthy information about some blocks

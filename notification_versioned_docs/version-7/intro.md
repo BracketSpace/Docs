@@ -15,17 +15,17 @@ description: The official Notification plugin documentation
 
 ## Getting Started
 
-Learn about [how Notification plugin works](./user-guide/how-notification-plugin-works) to get started with creating custom notifications.
+Learn about [how Notification plugin works](user-guide/how-notification-plugin-works.md) to get started with creating custom notifications.
 
 ## Developer docs
 
 Explore the developer documentation:
 
-- [Extension possibilities](./developer/general/extension-possibilities)
-- [Bundling Notification plugin](./developer/general/bundling)  
-- [White label mode](./developer/general/white-label-mode)
+- [Extension possibilities](developer/general/extension-possibilities.md)
+- [Bundling Notification plugin](developer/general/bundling.md)  
+- [White label mode](developer/general/white-label-mode.md)
 
 ## Extensions
 
-Check out the [installation guide](./extensions/installation) to learn how to install and use extensions.
+Check out the [installation guide](extensions/installation.md) to learn how to install and use extensions.
 
