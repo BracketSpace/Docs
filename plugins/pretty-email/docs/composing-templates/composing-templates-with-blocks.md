@@ -8,7 +8,7 @@ sidebar_position: 3
 
 Composing Pretty Email Templates is very similar to setting up a post in the Gutenberg editor. You can add Blocks using the inserter icon (➕) and manage them using Document Overview.
 
-![](./assets/obraz%20(28).png)
+![](../assets/email-editor-document-outline-structure.png)
 
 Each of the widgets:
 
@@ -23,7 +23,7 @@ Each of the widgets:
 
 must be contained inside a Section (which can be contained in the Wrapper widget), so you first need to select one of the two.
 
-![](./assets/obraz%20(29).png)
+![](../assets/email-block-section-wrapper-selection.png)
 
 Once you have a Section with Column(s), you can start adding other blocks inside.
 
@@ -31,7 +31,7 @@ Once you have a Section with Column(s), you can start adding other blocks inside
 
 Each block has its own specific settings, available in the `Block` tab in the `Settings` sidebar.
 
-![](./assets/obraz%20(30).png)
+![](../assets/email-block-settings-panel-access.png)
 
 :::note
 Settings are applied in a cascade, like in CSS, so the most nested block settings are most important, followed by the parent block settings. The [global template settings](./global-template-settings/) only apply to blocks without more specific settings.
@@ -43,11 +43,11 @@ Settings are applied in a cascade, like in CSS, so the most nested block setting
 
 While inserting image from URL
 
-![](./assets/obraz%20(31).png)
+![](../assets/email-image-block-upload-options.png)
 
 It's important to provide the specific width of an image
 
-![](./assets/obraz%20(32).png)
+![](../assets/email-image-block-width-settings.png)
 
 :::warning
 Due to the differences in email template rendering in the WordPress editor and email clients, images inserted from the URL will appear to be sized correctly in the WP editor, even without providing a specific width.  However, in the real email, the image inserted from URL with Auto width will be full-width. This can be previewed for more control by [Sending Template Preview](creating-new-template.md#sending-template-preview)

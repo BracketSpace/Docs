@@ -9,11 +9,11 @@ sidebar_position: 2
 
 To use Pretty Email templates in the [Notification](https://wordpress.org/plugins/notification/) plugin, go to your notifications list and enter a notification edit:
 
-![](./assets/obraz-19.png)
+![](./assets/notification-plugin-edit-interface.png)
 
 At the bottom of the Carrier box, you can choose the template that you want to use for the notification:
 
-![](./assets/obraz-20.png)
+![](./assets/notification-template-selection-dropdown.png)
 
 You can choose one of 3 options:
 

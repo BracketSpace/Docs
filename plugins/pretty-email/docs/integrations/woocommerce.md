@@ -11,31 +11,31 @@ Turning on Pretty Email for WooCommerce emails:
 
 1.  Go to `Appearance` -> `Pretty Email`
 
-    ![](./assets/firefox_ZDSEm6HwOw.png)
+    ![](./assets/wordpress-appearance-pretty-email-menu.png)
 
 2.  Navigate to `Settings` tab
 
-    ![](./assets/firefox_ApWB3nVpX7.png)
+    ![](./assets/woocommerce-pretty-email-settings-tab.png)
 
 3.  Enable WooCommerce integration:
 
-    ![](./assets/firefox_45ylhDSSVD.png)
+    ![](./assets/woocommerce-integration-enable-checkbox.png)
 
 4.  Select default template for WooCommerce emails:
 
-    ![](./assets/firefox_vlxFSmmKJ1.png)
+    ![](./assets/woocommerce-default-template-selection.png)
 
 5.  Then go to `WooCommerce` -> `Settings` -> `Emails`
 
-    ![](./assets/obraz-24.png)
+    ![](./assets/woocommerce-settings-emails-menu.png)
 
 6.  Manage chosen emails to turn on Pretty Emails email type for them:
 
-    ![](./assets/firefox_yBtRK5a1D1.png)
+    ![](./assets/woocommerce-email-template-configuration.png)
 
 7.  You can leave the default WooCommerce email template, or choose a specific one for each email separately:
 
-    ![](./assets/firefox_IVmR5zbs7V.png)
+    ![](./assets/woocommerce-specific-template-selection.png)
 
 :::danger
 All `plain-text` emails are wrapped in Pretty Email templates, while HTML emails are not.

@@ -11,7 +11,7 @@ For each template, you can set the typography that will be used throughout this 
 
 Go to `Email Template` tab in the template edit page view, and scroll down to the `Typography` section:
 
-![Typography section](../../assets/obraz%20(33).png)
+![Typography section](../../assets/email-template-typography-settings-panel.png)
 
 There, you can choose font family and font size for each`Paragraph` and `Heading` tabs separately.
 

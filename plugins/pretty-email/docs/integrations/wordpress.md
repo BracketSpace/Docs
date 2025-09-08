@@ -11,19 +11,19 @@ To turn on Pretty Email for WordPress emails:
 
 1.  Go to `Appearance` -> `Pretty Email`
 
-    ![](./assets/firefox_ZDSEm6HwOw.png)
+    ![](./assets/wordpress-appearance-pretty-email-menu.png)
 
 2.  Navigate to `Settings` tab
 
-    ![](./assets/obraz-21.png)
+    ![](./assets/wordpress-pretty-email-settings-tab.png)
 
 3.  Select the default email template (it will be applied for all emails unless otherwise specified)
 
-    ![](./assets/obraz-23.png)
+    ![](./assets/wordpress-default-template-selection.png)
 
 4.  Turn on WordPress Emails in `Integrations` box
 
-    ![](./assets/obraz-22.png)
+    ![](./assets/wordpress-emails-integration-toggle.png)
 
 :::note
 The chosen email template will be used for all WordPress default emails, so to keep their email content in it, an Email Body block must be placed in the chosen template.
