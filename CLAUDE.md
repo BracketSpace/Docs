@@ -96,7 +96,7 @@ Follow Conventional Commits format:
 ### Phase 4: SEO & Features
 - [x] Update social card
 - [x] Fix syntax highlighting
-- [ ] Fix breadcrumbs
+- [x] Fix breadcrumbs
 - [ ] Install [sitemap](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-sitemap)
 - [ ] Ensure URL routing is the same as existing SEO structure and set up redirects from old URLs to preserve SEO [plugin](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-client-redirects)
 - [ ] Set up SEO optimization with existing meta tags (with contextual image filenames)
