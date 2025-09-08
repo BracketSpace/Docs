@@ -8,7 +8,7 @@ description: "Transform your WordPress email creation and management experience 
 
 # Pretty Email
 
-![Pretty Email Logo](./assets/pretty-email-logo-black.png)
+![Pretty Email Logo](../assets/pretty-email-logo-black.png)
 
 Feel like your WordPress emails are just disappearing into the ether? We know the problem, and it is not your content. Your emails just need some sparkle to stand out.
 
