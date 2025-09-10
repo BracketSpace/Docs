@@ -442,6 +442,34 @@ Boolean values are represented as `Yes` or `No` by default.
 
 You can change the format by using the formatting pipes, like bool, join, or json.
 
+## Boolean Value Representation
+
+Boolean values from merge tags are displayed as human-readable strings by default:
+
+**Default Format:**
+- `true` / `1` → "Yes"
+- `false` / `0` → "No"
+
+This applies to all boolean values from:
+- ACF boolean fields
+- postmeta boolean values
+- usermeta boolean values
+- commentmeta boolean values
+
+**Example Output:**
+```
+{acf {post_ID} is_featured}
+// Returns: "Yes" (not "1")
+
+{postmeta {post_ID} _is_active}
+// Returns: "No" (not "0")
+```
+
+To customize the boolean representation, use the `|bool` pipeline:
+```
+{acf {post_ID} is_featured|bool,Enabled,Disabled}
+```
+
 ## Examples
 
 Post has a `related_post` field (stored post ID) where another related post can be selected. The related post has a field where `owner` can be selected and this returns the user ID. To get this user email:
