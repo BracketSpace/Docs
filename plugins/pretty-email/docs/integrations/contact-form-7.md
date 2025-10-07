@@ -11,9 +11,6 @@ keywords: ["Contact Form 7 email templates", "CF7 email design", "customize cont
 
 **Contact Form 7 email template integration** transforms your plain text form notifications into professional, branded communications that build trust and improve user experience. By default, Contact Form 7 sends basic plain text emails, but with Pretty Email, you can create stunning email templates that match your brand and convert better.
 
-<!-- TODO: Add screenshot - contact-form-7-before-after-comparison.png -->
-<!-- ![Before and after comparison of Contact Form 7 emails with Pretty Email templates](../../assets/contact-form-7-before-after-comparison.png) -->
-
 :::tip Quick Setup
 Transform your CF7 emails in just **5 minutes** with our step-by-step guide below. No coding required!
 :::
@@ -39,18 +36,15 @@ First, enable Pretty Email to handle WordPress default emails (which includes Co
 
 1. Navigate to **Appearance** → **Pretty Email**
 
-   <!-- TODO: Add screenshot - wordpress-appearance-pretty-email-menu.png -->
-   <!-- ![WordPress Appearance menu showing Pretty Email plugin access](../../assets/wordpress-appearance-pretty-email-menu.png) -->
+    ![WordPress Appearance menu showing Pretty Email plugin access](../../assets/wordpress-appearance-pretty-email-menu.png)
 
 2. Go to the **Settings** tab
 
-   <!-- TODO: Add screenshot - contact-form-7-settings-tab.png -->
-   <!-- ![WordPress Pretty Email settings tab interface](../../assets/contact-form-7-settings-tab.png) -->
+    ![WordPress Pretty Email settings tab interface](../../assets/wordpress-pretty-email-settings-tab.png)
 
 3. Turn on **WordPress Emails** in the Integrations section
 
-   <!-- TODO: Add screenshot - contact-form-7-wordpress-emails-toggle.png -->
-   <!-- ![Contact Form 7 WordPress emails integration toggle](../../assets/contact-form-7-wordpress-emails-toggle.png) -->
+    ![WordPress emails integration toggle switch in Pretty Email settings](../../assets/wordpress-emails-integration-toggle.png)
 
 ### 2. Select Your Default Email Template
 
@@ -59,8 +53,7 @@ Choose the template that will be applied to your Contact Form 7 emails:
 1. In the **Settings** tab, find the **Default Template** dropdown
 2. Select your preferred email template from the list
 
-   <!-- TODO: Add screenshot - contact-form-7-default-template-selection.png -->
-   <!-- ![Contact Form 7 default email template selection](../../assets/contact-form-7-default-template-selection.png) -->
+    ![WordPress default email template selection dropdown](../../assets/wordpress-default-template-selection.png)
 
 :::note Email Body Block Required
 Make sure your chosen template includes an **Email Body block** to display the form submission content.
@@ -71,17 +64,17 @@ Make sure your chosen template includes an **Email Body block** to display the f
 Set up your Contact Form 7 to work optimally with Pretty Email templates:
 
 1. Go to **Contact** → **Contact Forms**
+
+    ![WordPress Contact menu showing Contact Form access](../../assets/wordpress-contac-form-menu.png)
+
+
 2. Edit your existing form or create a new one
+
+    ![WordPress Contact forms page](../../assets/wordpress-contac-forms-page.png)
+
 3. Ensure your form includes proper field labels for better email formatting
 
-### 4. Customize Email Settings (Optional)
-
-For advanced customization, you can configure specific templates for different forms:
-
-1. Create multiple email templates in **Pretty Email** → **Templates**
-2. Use different templates for different form purposes (contact, quotes, support)
-
-### 5. Test Your Email Integration
+### 4. Test Your Email Integration
 
 Always test your integration before going live:
 
@@ -102,11 +95,6 @@ Make your emails match your brand identity:
 - **Typography**: Use consistent fonts across all communications
 - **Layout**: Choose from various template layouts
 
-### Advanced Features
-
-- **Mobile Optimization**: Ensure emails look perfect on all devices
-- **Social Media Links**: Include branded social media icons
-
 ### Template Gallery
 
 Browse our [template library](../composing-templates/creating-new-template.md) for inspiration and ready-to-use designs:
@@ -121,10 +109,10 @@ Browse our [template library](../composing-templates/creating-new-template.md) f
 
 ### Email Not Received
 
-**Problem**: Contact form submissions aren't generating Pretty Email templates.
+**Problem**: Contact form submissions aren't generating emails.
 
 **Solution**:
-1. Verify WordPress Emails integration is enabled
+1. Verify your Contact Form 7 mail template settings
 2. Check that your hosting provider allows email sending
 3. Install an SMTP plugin like WP Mail SMTP for better delivery
 4. Test with a different email address
@@ -134,10 +122,11 @@ Browse our [template library](../composing-templates/creating-new-template.md) f
 **Problem**: Emails are still appearing as plain text.
 
 **Solution**:
-1. Confirm your template includes an Email Body block
-2. Check that Contact Form 7 is sending HTML emails
-3. Verify the default template is properly selected
-4. Clear any caching plugins
+1. Ensure WordPress Emails integration is active
+2. Confirm the default template is properly selected
+3. Verify your template includes an Email Body block
+4. Check that CF7 is sending plain text emails
+5. Clear any caching plugins
 
 ### Missing Form Data
 
@@ -165,6 +154,7 @@ Browse our [template library](../composing-templates/creating-new-template.md) f
 
 **Solution**:
 1. Confirm WordPress Emails integration is active
+2. Ensure the default template is properly selected
 2. Check that CF7 is sending plain text emails (HTML emails aren't wrapped)
 3. Verify no conflicting email plugins are installed
 4. Review CF7 mail settings for custom configurations
