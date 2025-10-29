@@ -46,7 +46,41 @@ First, enable Pretty Email to handle WordPress default emails (which includes Co
 
     ![WordPress emails integration toggle switch in Pretty Email settings](../../assets/wordpress-emails-integration-toggle.png)
 
-### 2. Select Your Default Email Template
+### 2. Create a Template
+
+Design a custom email template for your Contact Form 7 notifications:
+
+1. In Pretty Email, click **Add New Template**
+
+    ![Add New Template button in Pretty Email interface](../../assets/pretty-email-add-new-template-button.png)
+
+2. Choose from available preset templates or build from scratch
+
+    ![Email template preset patterns gallery with professional designs](../../assets/email-template-preset-patterns-gallery.png)
+
+3. Add essential blocks to your template:
+   - Add a **Section** block to start building your layout
+   - Insert an **Email Body** block where form submission content should appear
+   - Add branding elements like logos, headers, and footers
+   - Customize colors, fonts, and spacing to match your brand
+
+4. Name your template in the Settings sidebar for easy identification
+
+    ![Email template rename options menu in WordPress settings sidebar](../../assets/email-template-rename-options-menu.png)
+
+5. Send a test preview to verify the design in your email client
+
+    ![Email template preview and send interface for testing designs](../../assets/email-template-preview-send-interface.png)
+
+:::note Email Body Block Required
+Your template **must include an Email Body block** to display the Contact Form 7 submission data. Without this block, form content won't appear in your emails.
+:::
+
+:::tip Learn More
+See [Creating New Templates](../composing-templates/creating-new-template.md) and [Composing Templates with Blocks](../composing-templates/composing-templates-with-blocks.md) for detailed template design guidance.
+:::
+
+### 3. Select Your Default Email Template
 
 Choose the template that will be applied to your Contact Form 7 emails:
 
@@ -59,7 +93,7 @@ Choose the template that will be applied to your Contact Form 7 emails:
 Make sure your chosen template includes an **Email Body block** to display the form submission content.
 :::
 
-### 3. Configure Your Contact Form
+### 4. Configure Your Contact Form
 
 Set up your Contact Form 7 to work optimally with Pretty Email templates:
 
@@ -74,7 +108,7 @@ Set up your Contact Form 7 to work optimally with Pretty Email templates:
 
 3. Ensure your form includes proper field labels for better email formatting
 
-### 4. Test Your Email Integration
+### 5. Test Your Email Integration
 
 Always test your integration before going live:
 
