@@ -2,7 +2,7 @@
 id: other-integrations
 title: "Pretty Email Plugin Integrations - Extend Your Email Design"
 sidebar_label: Other Integrations
-sidebar_position: 6
+sidebar_position: 50
 description: "Discover upcoming integrations for Pretty Email WordPress plugin. Learn about planned features and request custom integrations for your email template needs."
 keywords: ["Pretty Email integrations", "WordPress email plugin integrations", "email template integrations", "plugin compatibility", "custom integrations", "email automation"]
 ---
