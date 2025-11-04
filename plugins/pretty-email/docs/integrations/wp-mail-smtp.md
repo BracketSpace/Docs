@@ -275,7 +275,6 @@ A: SMTP quota limits are controlled by your provider and WP Mail SMTP. Pretty Em
 ### Other Integration Guides
 - [WordPress Core Emails](wordpress.md) - System email template configuration
 - [Contact Form 7 Integration](contact-form-7.md) - Form notification styling
-- [WPForms Lite Setup](wpforms-lite.md) - Form submission email design
 - [WooCommerce Templates](woocommerce.md) - E-commerce order email customization
 
 ### Email Design Guides
