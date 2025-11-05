@@ -209,6 +209,9 @@ Visit our [template library](../composing-templates/creating-new-template.md) fo
 **Solution**:
 1. Confirm WordPress Emails integration is enabled in Pretty Email
 2. Verify default template is properly assigned
+
+    <!-- TODO: Edit this step -->
+
 3. Check that all Ninja Forms are configured to send plain text emails
 4. Identify potential conflicts with other email-handling plugins
 5. Review individual form email settings for custom overrides
