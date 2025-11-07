@@ -229,17 +229,6 @@ Browse our [template showcase](../composing-templates/creating-new-template.md) 
 4. Update both plugins to latest versions for compatibility
 5. Contact support if errors persist with detailed error logs
 
-### Slow Email Sending
-
-**Problem**: Emails take longer to send after adding Pretty Email templates.
-
-**Solution**:
-1. Optimize template images (compress and use appropriate dimensions)
-2. Reduce template complexity if rendering is causing delays
-3. Check SMTP provider connection speed and server response times
-4. Review server resources to ensure adequate PHP memory
-5. Consider that template processing adds minimal overhead typically
-
 ## Frequently Asked Questions
 
 **Q: Will Pretty Email slow down my WP Mail SMTP delivery?**
