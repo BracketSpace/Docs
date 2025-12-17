@@ -176,7 +176,7 @@ Enhance your email appearance to maximize impact:
 
 ### Template Library
 
-Browse our [template showcase](../composing-templates/creating-new-template.md) for design inspiration:
+Browse stunningly designed preset templates built into Pretty Email for eye-catching emails:
 
 - Corporate professional layouts
 - Modern minimalist styles

@@ -91,7 +91,7 @@ Align your WooCommerce emails with your brand identity:
 
 ### Template Collection
 
-Explore our [template showcase](../composing-templates/creating-new-template.md) for ready-made designs and inspiration:
+Browse professionally designed preset templates built into Pretty Email, perfect for e-commerce stores:
 
 - E-commerce optimized layouts
 - Clean transactional templates
